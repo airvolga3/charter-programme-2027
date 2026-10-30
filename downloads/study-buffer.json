@@ -1,0 +1,3514 @@
+{
+  "id": "buffer",
+  "label": "Частоты + нетто 777 +11%, 737 +7%",
+  "scope": "all-seasons-all-types-all-bases",
+  "totals": {
+    "legs": 10162,
+    "outLegs": 5081,
+    "inLegs": 5081,
+    "seatsOut": 2103422,
+    "seatsIn": 2103422,
+    "paxOut": 1998250.8999999997,
+    "paxIn": 1998250.8999999997,
+    "pax": 3996501.7999999993,
+    "blockHours": 76267.36666666667,
+    "fuelTonnes": 480359.92500000016,
+    "plannedCargoOut": 0,
+    "plannedCargoIn": 0,
+    "plannedCargoTonnes": 0,
+    "cargoOut": 0,
+    "cargoIn": 0,
+    "cargoTonnes": 0,
+    "passengerRevenueOut": 60077595482.78003,
+    "passengerRevenueIn": 60077516465.67501,
+    "passengerRevenue": 120155111948.45505,
+    "cargoRevenue": 0,
+    "revenue": 120155111948.45505,
+    "fuelCost": 65833937150.00001,
+    "maintenanceCost": 12068602425,
+    "airportCost": 6811740000,
+    "navigationCost": 2515441095,
+    "passengerCost": 6736367160,
+    "cargoCost": 0,
+    "otherCost": 4698304391.5,
+    "variableCost": 98664392221.5,
+    "fixedCost": 14905052054.794518,
+    "contribution": 21490719726.955048,
+    "result": 6585667672.16053,
+    "resultWithoutCargo": 6585667672.16053,
+    "baselineLegs": 10156,
+    "baselinePax": 3993366.7999999993,
+    "baselineResult": 6574847926.150491,
+    "deltaResult": 10819746.009999901,
+    "breakEvenNumerator": 106496258758.29453,
+    "breakEvenNumeratorWithoutCargo": 106496258758.29453,
+    "breakEvenDenominator": 119033606768.90002,
+    "passengerRevenueAt100": 126479065208.90002,
+    "passengerCostAt100": 7445458440,
+    "fixedLease": 8131660273.972601,
+    "fixedInsurance": 538520547.9452057,
+    "fixedCrew": 5277501369.863015,
+    "fixedOverhead": 957369863.0136995,
+    "cargoCostWithOther": 0,
+    "nonPassengerVariableCost": 91591206703.5,
+    "outsideLegs": 0,
+    "totalCost": 113569444276.29453,
+    "breakEvenLF": 89.4673879495676,
+    "breakEvenLFWithoutCargo": 89.4673879495676,
+    "breakEvenFare": 28417.21334300276,
+    "effectiveFare": 30065.07139530253,
+    "margin": 5.4809716918125755,
+    "routeCount": 227,
+    "profitableRoutes": 207,
+    "lossMakingRoutes": 20,
+    "cancelledRoutes": 1
+  },
+  "groups": [
+    {
+      "season": "summer",
+      "type": "777",
+      "legs": 3707,
+      "outLegs": 1856,
+      "inLegs": 1851,
+      "seatsOut": 1020800,
+      "seatsIn": 1018050,
+      "paxOut": 969760,
+      "paxIn": 967147.5,
+      "pax": 1936907.5,
+      "blockHours": 31452.800000000003,
+      "fuelTonnes": 251622.40000000002,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 30809220259.125,
+      "passengerRevenueIn": 30549005775.75,
+      "passengerRevenue": 61358226034.875,
+      "cargoRevenue": 0,
+      "revenue": 61358226034.875,
+      "fuelCost": 34479847533.333336,
+      "maintenanceCost": 6344424900,
+      "airportCost": 3169485000,
+      "navigationCost": 1273838400,
+      "passengerCost": 3486433500,
+      "cargoCost": 0,
+      "otherCost": 2437701466.6666675,
+      "variableCost": 51191730800,
+      "fixedCost": 6737106849.315068,
+      "contribution": 10166495234.875,
+      "result": 3429388385.5599318,
+      "resultWithoutCargo": 3429388385.5599318,
+      "baselineLegs": 3703,
+      "baselinePax": 1934817.5,
+      "baselineResult": 3423550988.059938,
+      "deltaResult": 5837397.499999881,
+      "breakEvenNumerator": 54268082474.31507,
+      "breakEvenNumeratorWithoutCargo": 54268082474.31507,
+      "breakEvenDenominator": 60734179852.5,
+      "passengerRevenueAt100": 64587606352.5,
+      "passengerCostAt100": 3853426500,
+      "fixedLease": 3531452054.7945204,
+      "fixedInsurance": 256832876.71232888,
+      "fixedCrew": 2568328767.123289,
+      "fixedOverhead": 380493150.6849316,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 47530975625,
+      "outsideLegs": 0,
+      "totalCost": 57928837649.31507,
+      "breakEvenLF": 89.35344579627386,
+      "breakEvenLFWithoutCargo": 89.35344579627386,
+      "breakEvenFare": 29907.900944838653,
+      "effectiveFare": 31678.449298624226,
+      "margin": 5.589125708443272,
+      "routeCount": 65,
+      "profitableRoutes": 61,
+      "lossMakingRoutes": 4,
+      "cancelledRoutes": 0
+    },
+    {
+      "season": "summer",
+      "type": "737",
+      "legs": 2478,
+      "outLegs": 1240,
+      "inLegs": 1238,
+      "seatsOut": 250480,
+      "seatsIn": 250076,
+      "paxOut": 237955.99999999977,
+      "paxIn": 237572.19999999978,
+      "pax": 475528.19999999955,
+      "blockHours": 14000.866666666665,
+      "fuelTonnes": 35002.166666666664,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 5280063148.455001,
+      "passengerRevenueIn": 5243508741.130001,
+      "passengerRevenue": 10523571889.585003,
+      "cargoRevenue": 0,
+      "revenue": 10523571889.585003,
+      "fuelCost": 4783070250.000001,
+      "maintenanceCost": 859194300,
+      "airportCost": 947835000,
+      "navigationCost": 226814040,
+      "passengerCost": 570633840,
+      "cargoCost": 0,
+      "otherCost": 369377371.49999994,
+      "variableCost": 7756924801.500001,
+      "fixedCost": 2148597260.273973,
+      "contribution": 2766647088.085002,
+      "result": 618049827.811029,
+      "resultWithoutCargo": 618049827.811029,
+      "baselineLegs": 2478,
+      "baselinePax": 475528.1999999996,
+      "baselineResult": 619281825.8110287,
+      "deltaResult": -1231997.9999998808,
+      "breakEvenNumerator": 9306356529.773973,
+      "breakEvenNumeratorWithoutCargo": 9306356529.773973,
+      "breakEvenDenominator": 10446743534.3,
+      "passengerRevenueAt100": 11077444094.3,
+      "passengerCostAt100": 630700560,
+      "fixedLease": 1316268493.150685,
+      "fixedInsurance": 64208219.17808221,
+      "fixedCrew": 577873972.6027398,
+      "fixedOverhead": 190246575.3424658,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 7157759269.5,
+      "outsideLegs": 0,
+      "totalCost": 9905522061.773973,
+      "breakEvenLF": 89.08380395496673,
+      "breakEvenLFWithoutCargo": 89.08380395496673,
+      "breakEvenFare": 20830.56706578912,
+      "effectiveFare": 22130.279317998415,
+      "margin": 5.8730042831056455,
+      "routeCount": 50,
+      "profitableRoutes": 45,
+      "lossMakingRoutes": 5,
+      "cancelledRoutes": 0
+    },
+    {
+      "season": "winter",
+      "type": "777",
+      "legs": 2483,
+      "outLegs": 1239,
+      "inLegs": 1244,
+      "seatsOut": 681450,
+      "seatsIn": 684200,
+      "paxOut": 647377.5,
+      "paxIn": 649990,
+      "pax": 1297367.5,
+      "blockHours": 21218.383333333335,
+      "fuelTonnes": 169747.06666666668,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 20511326253,
+      "passengerRevenueIn": 20771474039.25,
+      "passengerRevenue": 41282800292.25,
+      "cargoRevenue": 0,
+      "revenue": 41282800292.25,
+      "fuelCost": 23285957200.000004,
+      "maintenanceCost": 4279454400,
+      "airportCost": 2122965000,
+      "navigationCost": 859344525,
+      "passengerCost": 2335261500,
+      "cargoCost": 0,
+      "otherCost": 1644149131.2499998,
+      "variableCost": 34527131756.25,
+      "fixedCost": 4563846575.342466,
+      "contribution": 6755668536,
+      "result": 2191821960.6575336,
+      "resultWithoutCargo": 2191821960.6575336,
+      "baselineLegs": 2481,
+      "baselinePax": 1296322.5,
+      "baselineResult": 2186833452.1575356,
+      "deltaResult": 4988508.499999877,
+      "breakEvenNumerator": 36638953756.59247,
+      "breakEvenNumeratorWithoutCargo": 36638953756.59247,
+      "breakEvenDenominator": 40874500755,
+      "passengerRevenueAt100": 43455579255,
+      "passengerCostAt100": 2581078500,
+      "fixedLease": 2392273972.6027403,
+      "fixedInsurance": 173983561.6438357,
+      "fixedCrew": 1739835616.4383566,
+      "fixedOverhead": 257753424.65753436,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 32075107181.25,
+      "outsideLegs": 0,
+      "totalCost": 39090978331.59247,
+      "breakEvenLF": 89.63767894366413,
+      "breakEvenLFWithoutCargo": 89.63767894366413,
+      "breakEvenFare": 30130.998604167646,
+      "effectiveFare": 31820.436608940796,
+      "margin": 5.3092860589425745,
+      "routeCount": 68,
+      "profitableRoutes": 64,
+      "lossMakingRoutes": 4,
+      "cancelledRoutes": 1
+    },
+    {
+      "season": "winter",
+      "type": "737",
+      "legs": 1494,
+      "outLegs": 746,
+      "inLegs": 748,
+      "seatsOut": 150692,
+      "seatsIn": 151096,
+      "paxOut": 143157.39999999997,
+      "paxIn": 143541.19999999995,
+      "pax": 286698.5999999999,
+      "blockHours": 9595.316666666664,
+      "fuelTonnes": 23988.291666666664,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 3476985822.2,
+      "passengerRevenueIn": 3513527909.5449996,
+      "passengerRevenue": 6990513731.744999,
+      "cargoRevenue": 0,
+      "revenue": 6990513731.744999,
+      "fuelCost": 3285062166.666666,
+      "maintenanceCost": 585528825,
+      "airportCost": 571455000,
+      "navigationCost": 155444130,
+      "passengerCost": 344038320,
+      "cargoCost": 0,
+      "otherCost": 247076422.08333334,
+      "variableCost": 5188604863.749999,
+      "fixedCost": 1455501369.863014,
+      "contribution": 1801908867.995,
+      "result": 346407498.1319859,
+      "resultWithoutCargo": 346407498.1319859,
+      "baselineLegs": 1494,
+      "baselinePax": 286698.59999999986,
+      "baselineResult": 345181660.1219857,
+      "deltaResult": 1225838.010000024,
+      "breakEvenNumerator": 6282865997.613014,
+      "breakEvenNumeratorWithoutCargo": 6282865997.613014,
+      "breakEvenDenominator": 6978182627.099999,
+      "passengerRevenueAt100": 7358435507.099999,
+      "passengerCostAt100": 380252880,
+      "fixedLease": 891665753.424658,
+      "fixedInsurance": 43495890.41095892,
+      "fixedCrew": 391463013.6986302,
+      "fixedOverhead": 128876712.32876715,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 4827364627.75,
+      "outsideLegs": 0,
+      "totalCost": 6644106233.613013,
+      "breakEvenLF": 90.03584935156755,
+      "breakEvenLFWithoutCargo": 90.03584935156755,
+      "breakEvenFare": 23174.53323320384,
+      "effectiveFare": 24382.796887550205,
+      "margin": 4.955394001429339,
+      "routeCount": 44,
+      "profitableRoutes": 37,
+      "lossMakingRoutes": 7,
+      "cancelledRoutes": 0
+    }
+  ],
+  "summary": [
+    {
+      "scenario": "flex",
+      "season": "Лето 2027",
+      "type": "777",
+      "active": 9,
+      "fleet": 10,
+      "blockHours": 31452.800000000214,
+      "groundHours": 7414,
+      "outboundPax": 970688,
+      "returnPax": 968073,
+      "inboundPax": 968073,
+      "ownOutboundPax": 940354,
+      "ownReturnPax": 900606,
+      "balancingPax": 97801,
+      "balancingOutboundPax": 30334,
+      "balancingInboundPax": 67467,
+      "confirmedBalancingPax": null,
+      "seatSegments": 2038850,
+      "outboundSeats": 1020800,
+      "inboundSeats": 1018050,
+      "plannedLF": 0.9509090909090909,
+      "lfWithoutBalancing": 0.9029403830590774,
+      "departureLegs": 1856,
+      "returnLegs": 1851,
+      "physicalLegs": 3707,
+      "passengerSegments": 1938761,
+      "cargoOutboundTonnes": 0,
+      "cargoInboundTonnes": 0,
+      "cargoTonnes": 0,
+      "activeDaily": 16.104864311316035,
+      "fleetDaily": 14.49437788018443,
+      "targetTourists": 970688,
+      "ownTourists": 940354,
+      "ownInboundPax": 900606,
+      "requiredActiveLowerBound": 9
+    },
+    {
+      "scenario": "flex",
+      "season": "Зима 2027/28",
+      "type": "777",
+      "active": 9,
+      "fleet": 10,
+      "blockHours": 21218.38333333346,
+      "groundHours": 4966,
+      "outboundPax": 647997,
+      "returnPax": 650612,
+      "inboundPax": 650612,
+      "ownOutboundPax": 589421,
+      "ownReturnPax": 629169,
+      "balancingPax": 80019,
+      "balancingOutboundPax": 58576,
+      "balancingInboundPax": 21443,
+      "confirmedBalancingPax": null,
+      "seatSegments": 1365650,
+      "outboundSeats": 681450,
+      "inboundSeats": 684200,
+      "plannedLF": 0.9509090909090909,
+      "lfWithoutBalancing": 0.8923150148281038,
+      "departureLegs": 1239,
+      "returnLegs": 1244,
+      "physicalLegs": 2483,
+      "passengerSegments": 1298609,
+      "cargoOutboundTonnes": 0,
+      "cargoInboundTonnes": 0,
+      "cargoTonnes": 0,
+      "activeDaily": 16.03808264046369,
+      "fleetDaily": 14.434274376417319,
+      "targetTourists": 647997,
+      "ownTourists": 589421,
+      "ownInboundPax": 629169,
+      "requiredActiveLowerBound": 9
+    },
+    {
+      "scenario": "flex",
+      "season": "Лето 2027",
+      "type": "737",
+      "active": 4,
+      "fleet": 5,
+      "blockHours": 14000.866666666683,
+      "groundHours": 3716.5,
+      "outboundPax": 238080,
+      "returnPax": 237696,
+      "inboundPax": 237696,
+      "ownOutboundPax": 230976,
+      "ownReturnPax": 222720,
+      "balancingPax": 22080,
+      "balancingOutboundPax": 7104,
+      "balancingInboundPax": 14976,
+      "confirmedBalancingPax": null,
+      "seatSegments": 500556,
+      "outboundSeats": 250480,
+      "inboundSeats": 250076,
+      "plannedLF": 0.9504950495049505,
+      "lfWithoutBalancing": 0.9063841008798217,
+      "departureLegs": 1240,
+      "returnLegs": 1238,
+      "physicalLegs": 2478,
+      "passengerSegments": 475776,
+      "cargoOutboundTonnes": 0,
+      "cargoInboundTonnes": 0,
+      "cargoTonnes": 0,
+      "activeDaily": 16.130030721966225,
+      "fleetDaily": 12.90402457757298,
+      "targetTourists": 238080,
+      "ownTourists": 230976,
+      "ownInboundPax": 222720,
+      "requiredActiveLowerBound": 4
+    },
+    {
+      "scenario": "flex",
+      "season": "Зима 2027/28",
+      "type": "737",
+      "active": 4,
+      "fleet": 5,
+      "blockHours": 9595.316666666657,
+      "groundHours": 2241.5,
+      "outboundPax": 143232,
+      "returnPax": 143616,
+      "inboundPax": 143616,
+      "ownOutboundPax": 130560,
+      "ownReturnPax": 138816,
+      "balancingPax": 17472,
+      "balancingOutboundPax": 12672,
+      "balancingInboundPax": 4800,
+      "confirmedBalancingPax": null,
+      "seatSegments": 301788,
+      "outboundSeats": 150692,
+      "inboundSeats": 151096,
+      "plannedLF": 0.9504950495049505,
+      "lfWithoutBalancing": 0.8926001033838323,
+      "departureLegs": 746,
+      "returnLegs": 748,
+      "physicalLegs": 1494,
+      "passengerSegments": 286848,
+      "cargoOutboundTonnes": 0,
+      "cargoInboundTonnes": 0,
+      "cargoTonnes": 0,
+      "activeDaily": 16.31856575963717,
+      "fleetDaily": 13.054852607709737,
+      "targetTourists": 143232,
+      "ownTourists": 130560,
+      "ownInboundPax": 138816,
+      "requiredActiveLowerBound": 4
+    }
+  ],
+  "reviewRoutes": [
+    {
+      "legs": 96,
+      "outLegs": 48,
+      "inLegs": 48,
+      "seatsOut": 26400,
+      "seatsIn": 26400,
+      "paxOut": 25080,
+      "paxIn": 25080,
+      "pax": 50160,
+      "blockHours": 1080,
+      "fuelTonnes": 8640,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 1006590110.625,
+      "passengerRevenueIn": 1006590110.625,
+      "passengerRevenue": 2013180221.25,
+      "cargoRevenue": 0,
+      "revenue": 2013180221.25,
+      "fuelCost": 1181520000,
+      "maintenanceCost": 216864000,
+      "airportCost": 82080000,
+      "navigationCost": 43740000,
+      "passengerCost": 90288000,
+      "cargoCost": 0,
+      "otherCost": 80724600,
+      "variableCost": 1695216600,
+      "fixedCost": 231522083.80211607,
+      "contribution": 317963621.25,
+      "result": 86441537.44788393,
+      "resultWithoutCargo": 86441537.44788393,
+      "baselineLegs": 96,
+      "baselinePax": 50160,
+      "baselineResult": 86441537.44788393,
+      "deltaResult": 0,
+      "breakEvenNumerator": 1831936283.8021162,
+      "breakEvenNumeratorWithoutCargo": 1831936283.8021162,
+      "breakEvenDenominator": 2019345075,
+      "passengerRevenueAt100": 2119137075,
+      "passengerCostAt100": 99792000,
+      "fixedLease": 121359087.3442084,
+      "fixedInsurance": 8826115.443215158,
+      "fixedCrew": 88261154.43215156,
+      "fixedOverhead": 13075726.582540972,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 1600414200,
+      "outsideLegs": 0,
+      "id": "summer|777|LED|CXR",
+      "key": "summer|777|LED|CXR",
+      "season": "summer",
+      "type": "777",
+      "base": "LED",
+      "dest": "CXR",
+      "fareOut": 40515,
+      "fareIn": 40515,
+      "baseFareOut": 40515,
+      "baseFareIn": 40515,
+      "cargoRateUsd": 2.5,
+      "breakEvenLF": 90.71932808720749,
+      "breakEvenLFWithoutCargo": 90.71932808720749,
+      "breakEvenFare": 38411.85573768174,
+      "loadOut": 95,
+      "loadIn": 95,
+      "cargoSoldPct": 0,
+      "unallocated": false,
+      "totalCost": 1926738683.8021162,
+      "effectiveFare": 40135.171875,
+      "margin": 4.293780384659834
+    },
+    {
+      "legs": 80,
+      "outLegs": 40,
+      "inLegs": 40,
+      "seatsOut": 22000,
+      "seatsIn": 22000,
+      "paxOut": 20900,
+      "paxIn": 20900,
+      "pax": 41800,
+      "blockHours": 866.6666666666662,
+      "fuelTonnes": 6933.333333333329,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 818924700,
+      "passengerRevenueIn": 806640829.5,
+      "passengerRevenue": 1625565529.5,
+      "cargoRevenue": 0,
+      "revenue": 1625565529.5,
+      "fuelCost": 952520000,
+      "maintenanceCost": 174120000,
+      "airportCost": 68400000,
+      "navigationCost": 35100000,
+      "passengerCost": 75240000,
+      "cargoCost": 0,
+      "otherCost": 65269000,
+      "variableCost": 1370649000,
+      "fixedCost": 185789326.50787085,
+      "contribution": 254916529.5,
+      "result": 69127202.99212915,
+      "resultWithoutCargo": 69127202.99212915,
+      "baselineLegs": 80,
+      "baselinePax": 41800,
+      "baselineResult": 69127202.99212915,
+      "deltaResult": 0,
+      "breakEvenNumerator": 1477436326.507871,
+      "breakEvenNumeratorWithoutCargo": 1477436326.507871,
+      "breakEvenDenominator": 1627961610,
+      "passengerRevenueAt100": 1711121610,
+      "passengerCostAt100": 83160000,
+      "fixedLease": 97386921.94288324,
+      "fixedInsurance": 7082685.232209689,
+      "fixedCrew": 70826852.32209688,
+      "fixedOverhead": 10492867.010681022,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 1291647000,
+      "outsideLegs": 0,
+      "id": "summer|777|LED|HKT",
+      "key": "summer|777|LED|HKT",
+      "season": "summer",
+      "type": "777",
+      "base": "LED",
+      "dest": "HKT",
+      "fareOut": 39183,
+      "fareIn": 39183,
+      "baseFareOut": 39183,
+      "baseFareIn": 39183,
+      "cargoRateUsd": 2.5,
+      "breakEvenLF": 90.75375717906952,
+      "breakEvenLFWithoutCargo": 90.75375717906952,
+      "breakEvenFare": 37235.366662867724,
+      "loadOut": 95,
+      "loadIn": 95,
+      "cargoSoldPct": 0,
+      "unallocated": false,
+      "totalCost": 1556438326.507871,
+      "effectiveFare": 38889.1275,
+      "margin": 4.252501774775678
+    },
+    {
+      "legs": 88,
+      "outLegs": 44,
+      "inLegs": 44,
+      "seatsOut": 24200,
+      "seatsIn": 24200,
+      "paxOut": 22990,
+      "paxIn": 22990,
+      "pax": 45980,
+      "blockHours": 1129.333333333333,
+      "fuelTonnes": 9034.666666666664,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 1043723010.0000001,
+      "passengerRevenueIn": 1036606716.7500001,
+      "passengerRevenue": 2080329726.7500002,
+      "cargoRevenue": 0,
+      "revenue": 2080329726.7500002,
+      "fuelCost": 1238937333.3333333,
+      "maintenanceCost": 226380000,
+      "airportCost": 75240000,
+      "navigationCost": 45738000,
+      "passengerCost": 82764000,
+      "cargoCost": 0,
+      "otherCost": 83452966.66666666,
+      "variableCost": 1752512300,
+      "fixedCost": 242097783.92641023,
+      "contribution": 327817426.75000024,
+      "result": 85719642.82359001,
+      "resultWithoutCargo": 85719642.82359001,
+      "baselineLegs": 88,
+      "baselinePax": 45980,
+      "baselineResult": 85719642.82359001,
+      "deltaResult": 0,
+      "breakEvenNumerator": 1907707883.9264102,
+      "breakEvenNumeratorWithoutCargo": 1907707883.9264102,
+      "breakEvenDenominator": 2098344765.0000005,
+      "passengerRevenueAt100": 2189820765.0000005,
+      "passengerCostAt100": 91476000,
+      "fixedLease": 126902650.59326479,
+      "fixedInsurance": 9229283.679510167,
+      "fixedCrew": 92292836.79510166,
+      "fixedOverhead": 13673012.858533582,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 1665610100,
+      "outsideLegs": 0,
+      "id": "summer|777|MOW|DPS",
+      "key": "summer|777|MOW|DPS",
+      "season": "summer",
+      "type": "777",
+      "base": "MOW",
+      "dest": "DPS",
+      "fareOut": 45399.00000000001,
+      "fareIn": 45399.00000000001,
+      "baseFareOut": 45399.00000000001,
+      "baseFareIn": 45399.00000000001,
+      "cargoRateUsd": 2.5,
+      "breakEvenLF": 90.91489233545516,
+      "breakEvenLFWithoutCargo": 90.91489233545516,
+      "breakEvenFare": 43379.94962867356,
+      "loadOut": 95,
+      "loadIn": 95,
+      "cargoSoldPct": 0,
+      "unallocated": false,
+      "totalCost": 1994610083.9264102,
+      "effectiveFare": 45244.23068181819,
+      "margin": 4.120483484966862
+    },
+    {
+      "legs": 34,
+      "outLegs": 17,
+      "inLegs": 17,
+      "seatsOut": 9350,
+      "seatsIn": 9350,
+      "paxOut": 8882.5,
+      "paxIn": 8882.5,
+      "pax": 17765,
+      "blockHours": 368.33333333333337,
+      "fuelTonnes": 2946.666666666667,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 335759127,
+      "passengerRevenueIn": 348042997.5,
+      "passengerRevenue": 683802124.5,
+      "cargoRevenue": 0,
+      "revenue": 683802124.5,
+      "fuelCost": 404821000,
+      "maintenanceCost": 74001000,
+      "airportCost": 29070000,
+      "navigationCost": 14917500,
+      "passengerCost": 31977000,
+      "cargoCost": 0,
+      "otherCost": 27739325,
+      "variableCost": 582525825,
+      "fixedCost": 79271870.33297509,
+      "contribution": 101276299.5,
+      "result": 22004429.16702491,
+      "resultWithoutCargo": 22004429.16702491,
+      "baselineLegs": 34,
+      "baselinePax": 17765,
+      "baselineResult": 22004429.16702491,
+      "deltaResult": 0,
+      "breakEvenNumerator": 628221845.3329751,
+      "breakEvenNumeratorWithoutCargo": 628221845.3329751,
+      "breakEvenDenominator": 684448710,
+      "passengerRevenueAt100": 719791710,
+      "passengerCostAt100": 35343000,
+      "fixedLease": 41552674.706836574,
+      "fixedInsurance": 3022012.705951751,
+      "fixedCrew": 30220127.05951751,
+      "fixedOverhead": 4477055.860669262,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 548949975,
+      "outsideLegs": 0,
+      "id": "winter|777|LED|HKT",
+      "key": "winter|777|LED|HKT",
+      "season": "winter",
+      "type": "777",
+      "base": "LED",
+      "dest": "HKT",
+      "fareOut": 39183,
+      "fareIn": 39183,
+      "baseFareOut": 39183,
+      "baseFareIn": 39183,
+      "cargoRateUsd": 2.5,
+      "breakEvenLF": 91.78508720295129,
+      "breakEvenLFWithoutCargo": 91.78508720295129,
+      "breakEvenFare": 37252.8958813946,
+      "loadOut": 95,
+      "loadIn": 95,
+      "cargoSoldPct": 0,
+      "unallocated": false,
+      "totalCost": 661797695.3329751,
+      "effectiveFare": 38491.535294117646,
+      "margin": 3.2179527349545274
+    },
+    {
+      "legs": 58,
+      "outLegs": 29,
+      "inLegs": 29,
+      "seatsOut": 15950,
+      "seatsIn": 15950,
+      "paxOut": 15152.5,
+      "paxIn": 15152.5,
+      "pax": 30305,
+      "blockHours": 744.3333333333331,
+      "fuelTonnes": 5954.666666666665,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 680792054.2500001,
+      "passengerRevenueIn": 687908347.5000001,
+      "passengerRevenue": 1368700401.7500002,
+      "cargoRevenue": 0,
+      "revenue": 1368700401.7500002,
+      "fuelCost": 816572333.3333331,
+      "maintenanceCost": 149205000,
+      "airportCost": 49590000,
+      "navigationCost": 30145500,
+      "passengerCost": 54549000,
+      "cargoCost": 0,
+      "otherCost": 55003091.66666668,
+      "variableCost": 1155064924.9999998,
+      "fixedCost": 160193743.39686275,
+      "contribution": 213635476.75000048,
+      "result": 53441733.35313773,
+      "resultWithoutCargo": 53441733.35313773,
+      "baselineLegs": 58,
+      "baselinePax": 30305,
+      "baselineResult": 53441733.35313773,
+      "deltaResult": 0,
+      "breakEvenNumerator": 1257982218.3968627,
+      "breakEvenNumeratorWithoutCargo": 1257982218.3968627,
+      "breakEvenDenominator": 1380446265.0000002,
+      "passengerRevenueAt100": 1440737265.0000002,
+      "passengerCostAt100": 60291000,
+      "fixedLease": 83970246.71526338,
+      "fixedInsurance": 6106927.033837338,
+      "fixedCrew": 61069270.33837338,
+      "fixedOverhead": 9047299.309388649,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 1097788475,
+      "outsideLegs": 0,
+      "id": "winter|777|MOW|DPS",
+      "key": "winter|777|MOW|DPS",
+      "season": "winter",
+      "type": "777",
+      "base": "MOW",
+      "dest": "DPS",
+      "fareOut": 45399.00000000001,
+      "fareIn": 45399.00000000001,
+      "baseFareOut": 45399.00000000001,
+      "baseFareIn": 45399.00000000001,
+      "cargoRateUsd": 2.5,
+      "breakEvenLF": 91.12866254137481,
+      "breakEvenLFWithoutCargo": 91.12866254137481,
+      "breakEvenFare": 43400.71501062077,
+      "loadOut": 95,
+      "loadIn": 95,
+      "cargoSoldPct": 0,
+      "unallocated": false,
+      "totalCost": 1315258668.3968625,
+      "effectiveFare": 45164.177586206904,
+      "margin": 3.9045603614061863
+    },
+    {
+      "legs": 32,
+      "outLegs": 16,
+      "inLegs": 16,
+      "seatsOut": 8800,
+      "seatsIn": 8800,
+      "paxOut": 8360,
+      "paxIn": 8360,
+      "pax": 16720,
+      "blockHours": 360,
+      "fuelTonnes": 2880,
+      "plannedCargoOut": 0,
+      "plannedCargoIn": 0,
+      "plannedCargoTonnes": 0,
+      "cargoOut": 0,
+      "cargoIn": 0,
+      "cargoTonnes": 0,
+      "passengerRevenueOut": 332354673.75,
+      "passengerRevenueIn": 335530036.875,
+      "passengerRevenue": 667884710.625,
+      "cargoRevenue": 0,
+      "revenue": 667884710.625,
+      "fuelCost": 395093333.33333325,
+      "maintenanceCost": 72288000,
+      "airportCost": 27360000,
+      "navigationCost": 14580000,
+      "passengerCost": 30096000,
+      "cargoCost": 0,
+      "otherCost": 26970866.66666667,
+      "variableCost": 566388199.9999999,
+      "fixedCost": 77478389.10372226,
+      "contribution": 101496510.62500012,
+      "result": 24018121.52127786,
+      "resultWithoutCargo": 24018121.52127786,
+      "baselineLegs": 32,
+      "baselinePax": 16720,
+      "baselineResult": 24018121.52127786,
+      "deltaResult": 0,
+      "breakEvenNumerator": 612265789.1037222,
+      "breakEvenNumeratorWithoutCargo": 612265789.1037222,
+      "breakEvenDenominator": 669772537.5,
+      "passengerRevenueAt100": 703036537.5,
+      "passengerCostAt100": 33264000,
+      "fixedLease": 40612568.94423846,
+      "fixedInsurance": 2953641.3777627973,
+      "fixedCrew": 29536413.77762797,
+      "fixedOverhead": 4375765.004093033,
+      "cargoCostWithOther": 0,
+      "nonPassengerVariableCost": 534787400,
+      "outsideLegs": 0,
+      "id": "winter|777|SVX|DPS",
+      "key": "winter|777|SVX|DPS",
+      "season": "winter",
+      "type": "777",
+      "base": "SVX",
+      "dest": "DPS",
+      "fareOut": 40515,
+      "fareIn": 40515,
+      "baseFareOut": 40515,
+      "baseFareIn": 40515,
+      "cargoRateUsd": 2.5,
+      "breakEvenLF": 91.41398830550322,
+      "breakEvenLFWithoutCargo": 91.41398830550322,
+      "breakEvenFare": 38508.76729089247,
+      "loadOut": 95,
+      "loadIn": 95,
+      "cargoSoldPct": 0,
+      "unallocated": false,
+      "totalCost": 643866589.1037221,
+      "effectiveFare": 39945.2578125,
+      "margin": 3.5961478289871223
+    }
+  ],
+  "stats": {
+    "blockHours": 76267.36666666705,
+    "groundHours": 18338,
+    "outboundPax": 1999997,
+    "returnPax": 1999997,
+    "inboundPax": 1999997,
+    "ownOutboundPax": 1891311,
+    "ownReturnPax": 1891311,
+    "balancingPax": 217372,
+    "balancingOutboundPax": 108686,
+    "balancingInboundPax": 108686,
+    "confirmedBalancingPax": null,
+    "seatSegments": 4206844,
+    "outboundSeats": 2103422,
+    "inboundSeats": 2103422,
+    "plannedLF": 0.9508301234844934,
+    "lfWithoutBalancing": 0.8991590845774172,
+    "departureLegs": 5081,
+    "returnLegs": 5081,
+    "physicalLegs": 10162,
+    "passengerSegments": 3999994,
+    "cargoOutboundTonnes": 0,
+    "cargoInboundTonnes": 0,
+    "cargoTonnes": 0,
+    "outsideHorizonLegs": 0,
+    "outsideHorizonPassengerSegments": 0,
+    "outsideHorizonCargoTonnes": 0,
+    "ownTourists": 1891311,
+    "overloadedTailCycles": 0,
+    "normalBufferViolations": 0,
+    "stressBufferViolations": 0,
+    "resourceFits": true,
+    "resourceStatus": "fits",
+    "requestConflictCount": 0,
+    "errorCount": 0,
+    "warningCount": 1,
+    "changedRouteCount": 3,
+    "closedLoops": 3116,
+    "cargoAssumption": {
+      "outbound": 0,
+      "inbound": 0
+    }
+  },
+  "economics": {
+    "globals": {
+      "usdRub": 90,
+      "loadOut": 95,
+      "loadIn": 95,
+      "fareFactor": 1,
+      "cargoSold": 0,
+      "cargoRateUsd": 2.5,
+      "balancingFareFactor": 0.85,
+      "fuelRussiaRub": 125000,
+      "fuelForeignUsd": 1650,
+      "otherVariablePct": 5,
+      "overheadMonthlyRub": 80000000
+    },
+    "types": {
+      "737": {
+        "fuelTph": 2.5,
+        "maintenanceUsdBh": 650,
+        "maintenanceUsdCycle": 180,
+        "airportUsdLeg": 4250,
+        "navigationUsdBh": 180,
+        "passengerRub": 1200,
+        "cargoHandlingUsdKg": 0,
+        "leaseUsdMonth": 410000,
+        "insuranceUsdMonth": 20000,
+        "crewRubMonth": 16200000
+      },
+      "777": {
+        "fuelTph": 8,
+        "maintenanceUsdBh": 2200,
+        "maintenanceUsdCycle": 350,
+        "airportUsdLeg": 9500,
+        "navigationUsdBh": 450,
+        "passengerRub": 1800,
+        "cargoHandlingUsdKg": 0.18,
+        "leaseUsdMonth": 550000,
+        "insuranceUsdMonth": 40000,
+        "crewRubMonth": 36000000
+      }
+    },
+    "routeOverrides": {
+      "summer|777|MOW|CXR": {
+        "fareOut": 39516,
+        "fareIn": 39516
+      },
+      "winter|777|MOW|CXR": {
+        "fareOut": 39516,
+        "fareIn": 39516
+      },
+      "outside|777|MOW|CXR": {
+        "fareOut": 39516,
+        "fareIn": 39516
+      },
+      "summer|777|KZN|CXR": {
+        "fareOut": 36630,
+        "fareIn": 36630
+      },
+      "winter|777|KZN|CXR": {
+        "fareOut": 36630,
+        "fareIn": 36630
+      },
+      "outside|777|KZN|CXR": {
+        "fareOut": 36630,
+        "fareIn": 36630
+      },
+      "summer|777|MOW|DAD": {
+        "fareOut": 38184,
+        "fareIn": 38184
+      },
+      "winter|777|MOW|DAD": {
+        "fareOut": 38184,
+        "fareIn": 38184
+      },
+      "outside|777|MOW|DAD": {
+        "fareOut": 38184,
+        "fareIn": 38184
+      },
+      "summer|777|UFA|DAD": {
+        "fareOut": 32967,
+        "fareIn": 32967
+      },
+      "winter|777|UFA|DAD": {
+        "fareOut": 32967,
+        "fareIn": 32967
+      },
+      "outside|777|UFA|DAD": {
+        "fareOut": 32967,
+        "fareIn": 32967
+      },
+      "summer|777|KUF|CXR": {
+        "fareOut": 36075,
+        "fareIn": 36075
+      },
+      "winter|777|KUF|CXR": {
+        "fareOut": 36075,
+        "fareIn": 36075
+      },
+      "outside|777|KUF|CXR": {
+        "fareOut": 36075,
+        "fareIn": 36075
+      },
+      "summer|777|MOW|HKT": {
+        "fareOut": 36519,
+        "fareIn": 36519
+      },
+      "winter|777|MOW|HKT": {
+        "fareOut": 36519,
+        "fareIn": 36519
+      },
+      "outside|777|MOW|HKT": {
+        "fareOut": 36519,
+        "fareIn": 36519
+      },
+      "summer|777|SVX|HKT": {
+        "fareOut": 34410,
+        "fareIn": 34410
+      },
+      "winter|777|SVX|HKT": {
+        "fareOut": 34410,
+        "fareIn": 34410
+      },
+      "outside|777|SVX|HKT": {
+        "fareOut": 34410,
+        "fareIn": 34410
+      },
+      "summer|777|KZN|HKT": {
+        "fareOut": 36519,
+        "fareIn": 36519
+      },
+      "winter|777|KZN|HKT": {
+        "fareOut": 36519,
+        "fareIn": 36519
+      },
+      "outside|777|KZN|HKT": {
+        "fareOut": 36519,
+        "fareIn": 36519
+      },
+      "summer|777|UFA|HKT": {
+        "fareOut": 34965,
+        "fareIn": 34965
+      },
+      "winter|777|UFA|HKT": {
+        "fareOut": 34965,
+        "fareIn": 34965
+      },
+      "outside|777|UFA|HKT": {
+        "fareOut": 34965,
+        "fareIn": 34965
+      },
+      "summer|777|KUF|HKT": {
+        "fareOut": 35742,
+        "fareIn": 35742
+      },
+      "winter|777|KUF|HKT": {
+        "fareOut": 35742,
+        "fareIn": 35742
+      },
+      "outside|777|KUF|HKT": {
+        "fareOut": 35742,
+        "fareIn": 35742
+      },
+      "summer|777|MOW|HRG": {
+        "fareOut": 25530.000000000004,
+        "fareIn": 25530.000000000004
+      },
+      "winter|777|MOW|HRG": {
+        "fareOut": 25530.000000000004,
+        "fareIn": 25530.000000000004
+      },
+      "outside|777|MOW|HRG": {
+        "fareOut": 25530.000000000004,
+        "fareIn": 25530.000000000004
+      },
+      "summer|777|MOW|PQC": {
+        "fareOut": 37185,
+        "fareIn": 37185
+      },
+      "winter|777|MOW|PQC": {
+        "fareOut": 37185,
+        "fareIn": 37185
+      },
+      "outside|777|MOW|PQC": {
+        "fareOut": 37185,
+        "fareIn": 37185
+      },
+      "summer|777|UFA|PQC": {
+        "fareOut": 32745.000000000004,
+        "fareIn": 32745.000000000004
+      },
+      "winter|777|UFA|PQC": {
+        "fareOut": 32745.000000000004,
+        "fareIn": 32745.000000000004
+      },
+      "outside|777|UFA|PQC": {
+        "fareOut": 32745.000000000004,
+        "fareIn": 32745.000000000004
+      },
+      "summer|777|MOW|UTP": {
+        "fareOut": 37074,
+        "fareIn": 37074
+      },
+      "winter|777|MOW|UTP": {
+        "fareOut": 37074,
+        "fareIn": 37074
+      },
+      "outside|777|MOW|UTP": {
+        "fareOut": 37074,
+        "fareIn": 37074
+      },
+      "summer|777|KUF|UTP": {
+        "fareOut": 33633,
+        "fareIn": 33633
+      },
+      "winter|777|KUF|UTP": {
+        "fareOut": 33633,
+        "fareIn": 33633
+      },
+      "outside|777|KUF|UTP": {
+        "fareOut": 33633,
+        "fareIn": 33633
+      },
+      "summer|777|MOW|SSH": {
+        "fareOut": 25419.000000000004,
+        "fareIn": 25419.000000000004
+      },
+      "winter|777|MOW|SSH": {
+        "fareOut": 25419.000000000004,
+        "fareIn": 25419.000000000004
+      },
+      "outside|777|MOW|SSH": {
+        "fareOut": 25419.000000000004,
+        "fareIn": 25419.000000000004
+      },
+      "summer|777|LED|CXR": {
+        "fareOut": 40515,
+        "fareIn": 40515
+      },
+      "winter|777|LED|CXR": {
+        "fareOut": 40515,
+        "fareIn": 40515
+      },
+      "outside|777|LED|CXR": {
+        "fareOut": 40515,
+        "fareIn": 40515
+      },
+      "summer|777|GOJ|CXR": {
+        "fareOut": 38184,
+        "fareIn": 38184
+      },
+      "winter|777|GOJ|CXR": {
+        "fareOut": 38184,
+        "fareIn": 38184
+      },
+      "outside|777|GOJ|CXR": {
+        "fareOut": 38184,
+        "fareIn": 38184
+      },
+      "summer|777|LED|HKT": {
+        "fareOut": 39183,
+        "fareIn": 39183
+      },
+      "winter|777|LED|HKT": {
+        "fareOut": 39183,
+        "fareIn": 39183
+      },
+      "outside|777|LED|HKT": {
+        "fareOut": 39183,
+        "fareIn": 39183
+      },
+      "summer|777|PEE|HKT": {
+        "fareOut": 35742,
+        "fareIn": 35742
+      },
+      "winter|777|PEE|HKT": {
+        "fareOut": 35742,
+        "fareIn": 35742
+      },
+      "outside|777|PEE|HKT": {
+        "fareOut": 35742,
+        "fareIn": 35742
+      },
+      "summer|777|TJM|CXR": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "winter|777|TJM|CXR": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "outside|777|TJM|CXR": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "summer|777|LED|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "winter|777|LED|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "outside|777|LED|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "summer|777|KZN|HRG": {
+        "fareOut": 24198.000000000004,
+        "fareIn": 24198.000000000004
+      },
+      "winter|777|KZN|HRG": {
+        "fareOut": 24198.000000000004,
+        "fareIn": 24198.000000000004
+      },
+      "outside|777|KZN|HRG": {
+        "fareOut": 24198.000000000004,
+        "fareIn": 24198.000000000004
+      },
+      "summer|777|TJM|HKT": {
+        "fareOut": 33966,
+        "fareIn": 33966
+      },
+      "winter|777|TJM|HKT": {
+        "fareOut": 33966,
+        "fareIn": 33966
+      },
+      "outside|777|TJM|HKT": {
+        "fareOut": 33966,
+        "fareIn": 33966
+      },
+      "summer|777|GOJ|HKT": {
+        "fareOut": 35187,
+        "fareIn": 35187
+      },
+      "winter|777|GOJ|HKT": {
+        "fareOut": 35187,
+        "fareIn": 35187
+      },
+      "outside|777|GOJ|HKT": {
+        "fareOut": 35187,
+        "fareIn": 35187
+      },
+      "summer|777|LED|PQC": {
+        "fareOut": 41292,
+        "fareIn": 41292
+      },
+      "winter|777|LED|PQC": {
+        "fareOut": 41292,
+        "fareIn": 41292
+      },
+      "outside|777|LED|PQC": {
+        "fareOut": 41292,
+        "fareIn": 41292
+      },
+      "summer|777|PEE|PQC": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "winter|777|PEE|PQC": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "outside|777|PEE|PQC": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "summer|777|LED|GOI": {
+        "fareOut": 32523.000000000004,
+        "fareIn": 32523.000000000004
+      },
+      "winter|777|LED|GOI": {
+        "fareOut": 32523.000000000004,
+        "fareIn": 32523.000000000004
+      },
+      "outside|777|LED|GOI": {
+        "fareOut": 32523.000000000004,
+        "fareIn": 32523.000000000004
+      },
+      "summer|777|KZN|GOI": {
+        "fareOut": 27861.000000000004,
+        "fareIn": 27861.000000000004
+      },
+      "winter|777|KZN|GOI": {
+        "fareOut": 27861.000000000004,
+        "fareIn": 27861.000000000004
+      },
+      "outside|777|KZN|GOI": {
+        "fareOut": 27861.000000000004,
+        "fareIn": 27861.000000000004
+      },
+      "summer|777|LED|KBV": {
+        "fareOut": 40626,
+        "fareIn": 40626
+      },
+      "winter|777|LED|KBV": {
+        "fareOut": 40626,
+        "fareIn": 40626
+      },
+      "outside|777|LED|KBV": {
+        "fareOut": 40626,
+        "fareIn": 40626
+      },
+      "summer|777|TJM|KBV": {
+        "fareOut": 32967,
+        "fareIn": 32967
+      },
+      "winter|777|TJM|KBV": {
+        "fareOut": 32967,
+        "fareIn": 32967
+      },
+      "outside|777|TJM|KBV": {
+        "fareOut": 32967,
+        "fareIn": 32967
+      },
+      "summer|777|LED|SSH": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "winter|777|LED|SSH": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "outside|777|LED|SSH": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "summer|777|MOW|DPS": {
+        "fareOut": 45399.00000000001,
+        "fareIn": 45399.00000000001
+      },
+      "winter|777|MOW|DPS": {
+        "fareOut": 45399.00000000001,
+        "fareIn": 45399.00000000001
+      },
+      "outside|777|MOW|DPS": {
+        "fareOut": 45399.00000000001,
+        "fareIn": 45399.00000000001
+      },
+      "summer|777|SVX|DPS": {
+        "fareOut": 40515,
+        "fareIn": 40515
+      },
+      "winter|777|SVX|DPS": {
+        "fareOut": 40515,
+        "fareIn": 40515
+      },
+      "outside|777|SVX|DPS": {
+        "fareOut": 40515,
+        "fareIn": 40515
+      },
+      "summer|777|MOW|ZNZ": {
+        "fareOut": 35853,
+        "fareIn": 35853
+      },
+      "winter|777|MOW|ZNZ": {
+        "fareOut": 35853,
+        "fareIn": 35853
+      },
+      "outside|777|MOW|ZNZ": {
+        "fareOut": 35853,
+        "fareIn": 35853
+      },
+      "summer|777|MRV|ZNZ": {
+        "fareOut": 30636.000000000004,
+        "fareIn": 30636.000000000004
+      },
+      "winter|777|MRV|ZNZ": {
+        "fareOut": 30636.000000000004,
+        "fareIn": 30636.000000000004
+      },
+      "outside|777|MRV|ZNZ": {
+        "fareOut": 30636.000000000004,
+        "fareIn": 30636.000000000004
+      },
+      "summer|777|SVX|CXR": {
+        "fareOut": 32745.000000000004,
+        "fareIn": 32745.000000000004
+      },
+      "winter|777|SVX|CXR": {
+        "fareOut": 32745.000000000004,
+        "fareIn": 32745.000000000004
+      },
+      "outside|777|SVX|CXR": {
+        "fareOut": 32745.000000000004,
+        "fareIn": 32745.000000000004
+      },
+      "summer|777|CEK|CXR": {
+        "fareOut": 33744,
+        "fareIn": 33744
+      },
+      "winter|777|CEK|CXR": {
+        "fareOut": 33744,
+        "fareIn": 33744
+      },
+      "outside|777|CEK|CXR": {
+        "fareOut": 33744,
+        "fareIn": 33744
+      },
+      "summer|777|SVX|DAD": {
+        "fareOut": 32190.000000000004,
+        "fareIn": 32190.000000000004
+      },
+      "winter|777|SVX|DAD": {
+        "fareOut": 32190.000000000004,
+        "fareIn": 32190.000000000004
+      },
+      "outside|777|SVX|DAD": {
+        "fareOut": 32190.000000000004,
+        "fareIn": 32190.000000000004
+      },
+      "summer|777|TJM|DAD": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "winter|777|TJM|DAD": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "outside|777|TJM|DAD": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "summer|777|UFA|CXR": {
+        "fareOut": 35076,
+        "fareIn": 35076
+      },
+      "winter|777|UFA|CXR": {
+        "fareOut": 35076,
+        "fareIn": 35076
+      },
+      "outside|777|UFA|CXR": {
+        "fareOut": 35076,
+        "fareIn": 35076
+      },
+      "summer|777|SVX|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "winter|777|SVX|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "outside|777|SVX|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "summer|777|KUF|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "winter|777|KUF|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "outside|777|KUF|HRG": {
+        "fareOut": 25752.000000000004,
+        "fareIn": 25752.000000000004
+      },
+      "summer|777|SVX|GOI": {
+        "fareOut": 26973.000000000004,
+        "fareIn": 26973.000000000004
+      },
+      "winter|777|SVX|GOI": {
+        "fareOut": 26973.000000000004,
+        "fareIn": 26973.000000000004
+      },
+      "outside|777|SVX|GOI": {
+        "fareOut": 26973.000000000004,
+        "fareIn": 26973.000000000004
+      },
+      "summer|777|CEK|HKT": {
+        "fareOut": 33966,
+        "fareIn": 33966
+      },
+      "winter|777|CEK|HKT": {
+        "fareOut": 33966,
+        "fareIn": 33966
+      },
+      "outside|777|CEK|HKT": {
+        "fareOut": 33966,
+        "fareIn": 33966
+      },
+      "summer|777|SVX|UTP": {
+        "fareOut": 31968.000000000004,
+        "fareIn": 31968.000000000004
+      },
+      "winter|777|SVX|UTP": {
+        "fareOut": 31968.000000000004,
+        "fareIn": 31968.000000000004
+      },
+      "outside|777|SVX|UTP": {
+        "fareOut": 31968.000000000004,
+        "fareIn": 31968.000000000004
+      },
+      "summer|777|UFA|UTP": {
+        "fareOut": 32523.000000000004,
+        "fareIn": 32523.000000000004
+      },
+      "winter|777|UFA|UTP": {
+        "fareOut": 32523.000000000004,
+        "fareIn": 32523.000000000004
+      },
+      "outside|777|UFA|UTP": {
+        "fareOut": 32523.000000000004,
+        "fareIn": 32523.000000000004
+      },
+      "summer|777|SVX|PQC": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "winter|777|SVX|PQC": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "outside|777|SVX|PQC": {
+        "fareOut": 33522,
+        "fareIn": 33522
+      },
+      "summer|777|TJM|PQC": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "winter|777|TJM|PQC": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "outside|777|TJM|PQC": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "summer|777|SVX|CMB": {
+        "fareOut": 31191.000000000004,
+        "fareIn": 31191.000000000004
+      },
+      "winter|777|SVX|CMB": {
+        "fareOut": 31191.000000000004,
+        "fareIn": 31191.000000000004
+      },
+      "outside|777|SVX|CMB": {
+        "fareOut": 31191.000000000004,
+        "fareIn": 31191.000000000004
+      },
+      "summer|777|KUF|CMB": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "winter|777|KUF|CMB": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "outside|777|KUF|CMB": {
+        "fareOut": 31413.000000000004,
+        "fareIn": 31413.000000000004
+      },
+      "summer|777|OVB|CXR": {
+        "fareOut": 29637.000000000004,
+        "fareIn": 29637.000000000004
+      },
+      "winter|777|OVB|CXR": {
+        "fareOut": 29637.000000000004,
+        "fareIn": 29637.000000000004
+      },
+      "outside|777|OVB|CXR": {
+        "fareOut": 29637.000000000004,
+        "fareIn": 29637.000000000004
+      },
+      "summer|777|KJA|CXR": {
+        "fareOut": 29082.000000000004,
+        "fareIn": 29082.000000000004
+      },
+      "winter|777|KJA|CXR": {
+        "fareOut": 29082.000000000004,
+        "fareIn": 29082.000000000004
+      },
+      "outside|777|KJA|CXR": {
+        "fareOut": 29082.000000000004,
+        "fareIn": 29082.000000000004
+      },
+      "summer|777|OVB|DAD": {
+        "fareOut": 27417.000000000004,
+        "fareIn": 27417.000000000004
+      },
+      "winter|777|OVB|DAD": {
+        "fareOut": 27417.000000000004,
+        "fareIn": 27417.000000000004
+      },
+      "outside|777|OVB|DAD": {
+        "fareOut": 27417.000000000004,
+        "fareIn": 27417.000000000004
+      },
+      "summer|777|IKT|DAD": {
+        "fareOut": 24087.000000000004,
+        "fareIn": 24087.000000000004
+      },
+      "winter|777|IKT|DAD": {
+        "fareOut": 24087.000000000004,
+        "fareIn": 24087.000000000004
+      },
+      "outside|777|IKT|DAD": {
+        "fareOut": 24087.000000000004,
+        "fareIn": 24087.000000000004
+      },
+      "summer|777|OVB|HKT": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "winter|777|OVB|HKT": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "outside|777|OVB|HKT": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "summer|777|KHV|HKT": {
+        "fareOut": 31191.000000000004,
+        "fareIn": 31191.000000000004
+      },
+      "winter|777|KHV|HKT": {
+        "fareOut": 31191.000000000004,
+        "fareIn": 31191.000000000004
+      },
+      "outside|777|KHV|HKT": {
+        "fareOut": 31191.000000000004,
+        "fareIn": 31191.000000000004
+      },
+      "summer|777|VVO|CXR": {
+        "fareOut": 24975.000000000004,
+        "fareIn": 24975.000000000004
+      },
+      "winter|777|VVO|CXR": {
+        "fareOut": 24975.000000000004,
+        "fareIn": 24975.000000000004
+      },
+      "outside|777|VVO|CXR": {
+        "fareOut": 24975.000000000004,
+        "fareIn": 24975.000000000004
+      },
+      "summer|777|OVB|DPS": {
+        "fareOut": 36075,
+        "fareIn": 36075
+      },
+      "winter|777|OVB|DPS": {
+        "fareOut": 36075,
+        "fareIn": 36075
+      },
+      "outside|777|OVB|DPS": {
+        "fareOut": 36075,
+        "fareIn": 36075
+      },
+      "summer|777|OVB|CMB": {
+        "fareOut": 29415.000000000004,
+        "fareIn": 29415.000000000004
+      },
+      "winter|777|OVB|CMB": {
+        "fareOut": 29415.000000000004,
+        "fareIn": 29415.000000000004
+      },
+      "outside|777|OVB|CMB": {
+        "fareOut": 29415.000000000004,
+        "fareIn": 29415.000000000004
+      },
+      "summer|777|KJA|HKT": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "winter|777|KJA|HKT": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "outside|777|KJA|HKT": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "summer|777|VVO|HKT": {
+        "fareOut": 28860.000000000004,
+        "fareIn": 28860.000000000004
+      },
+      "winter|777|VVO|HKT": {
+        "fareOut": 28860.000000000004,
+        "fareIn": 28860.000000000004
+      },
+      "outside|777|VVO|HKT": {
+        "fareOut": 28860.000000000004,
+        "fareIn": 28860.000000000004
+      },
+      "summer|777|IKT|HKT": {
+        "fareOut": 28083.000000000004,
+        "fareIn": 28083.000000000004
+      },
+      "winter|777|IKT|HKT": {
+        "fareOut": 28083.000000000004,
+        "fareIn": 28083.000000000004
+      },
+      "outside|777|IKT|HKT": {
+        "fareOut": 28083.000000000004,
+        "fareIn": 28083.000000000004
+      },
+      "summer|777|OVB|PQC": {
+        "fareOut": 30414.000000000004,
+        "fareIn": 30414.000000000004
+      },
+      "winter|777|OVB|PQC": {
+        "fareOut": 30414.000000000004,
+        "fareIn": 30414.000000000004
+      },
+      "outside|777|OVB|PQC": {
+        "fareOut": 30414.000000000004,
+        "fareIn": 30414.000000000004
+      },
+      "summer|777|IKT|PQC": {
+        "fareOut": 25530.000000000004,
+        "fareIn": 25530.000000000004
+      },
+      "winter|777|IKT|PQC": {
+        "fareOut": 25530.000000000004,
+        "fareIn": 25530.000000000004
+      },
+      "outside|777|IKT|PQC": {
+        "fareOut": 25530.000000000004,
+        "fareIn": 25530.000000000004
+      },
+      "summer|777|OVB|UTP": {
+        "fareOut": 27972.000000000004,
+        "fareIn": 27972.000000000004
+      },
+      "winter|777|OVB|UTP": {
+        "fareOut": 27972.000000000004,
+        "fareIn": 27972.000000000004
+      },
+      "outside|777|OVB|UTP": {
+        "fareOut": 27972.000000000004,
+        "fareIn": 27972.000000000004
+      },
+      "summer|777|VVO|UTP": {
+        "fareOut": 26196.000000000004,
+        "fareIn": 26196.000000000004
+      },
+      "winter|777|VVO|UTP": {
+        "fareOut": 26196.000000000004,
+        "fareIn": 26196.000000000004
+      },
+      "outside|777|VVO|UTP": {
+        "fareOut": 26196.000000000004,
+        "fareIn": 26196.000000000004
+      },
+      "summer|777|IKT|CXR": {
+        "fareOut": 26529.000000000004,
+        "fareIn": 26529.000000000004
+      },
+      "winter|777|IKT|CXR": {
+        "fareOut": 26529.000000000004,
+        "fareIn": 26529.000000000004
+      },
+      "outside|777|IKT|CXR": {
+        "fareOut": 26529.000000000004,
+        "fareIn": 26529.000000000004
+      },
+      "summer|777|KJA|DAD": {
+        "fareOut": 26640.000000000004,
+        "fareIn": 26640.000000000004
+      },
+      "winter|777|KJA|DAD": {
+        "fareOut": 26640.000000000004,
+        "fareIn": 26640.000000000004
+      },
+      "outside|777|KJA|DAD": {
+        "fareOut": 26640.000000000004,
+        "fareIn": 26640.000000000004
+      },
+      "summer|777|VVO|DAD": {
+        "fareOut": 23199.000000000004,
+        "fareIn": 23199.000000000004
+      },
+      "winter|777|VVO|DAD": {
+        "fareOut": 23199.000000000004,
+        "fareIn": 23199.000000000004
+      },
+      "outside|777|VVO|DAD": {
+        "fareOut": 23199.000000000004,
+        "fareIn": 23199.000000000004
+      },
+      "summer|777|KJA|DPS": {
+        "fareOut": 35298,
+        "fareIn": 35298
+      },
+      "winter|777|KJA|DPS": {
+        "fareOut": 35409,
+        "fareIn": 35409
+      },
+      "outside|777|KJA|DPS": {
+        "fareOut": 35298,
+        "fareIn": 35298
+      },
+      "summer|777|KJA|CMB": {
+        "fareOut": 30414.000000000004,
+        "fareIn": 30414.000000000004
+      },
+      "winter|777|KJA|CMB": {
+        "fareOut": 30414.000000000004,
+        "fareIn": 30414.000000000004
+      },
+      "outside|777|KJA|CMB": {
+        "fareOut": 30414.000000000004,
+        "fareIn": 30414.000000000004
+      },
+      "summer|777|KJA|UTP": {
+        "fareOut": 27750.000000000004,
+        "fareIn": 27750.000000000004
+      },
+      "winter|777|KJA|UTP": {
+        "fareOut": 27750.000000000004,
+        "fareIn": 27750.000000000004
+      },
+      "outside|777|KJA|UTP": {
+        "fareOut": 27750.000000000004,
+        "fareIn": 27750.000000000004
+      },
+      "summer|777|KJA|PQC": {
+        "fareOut": 27528.000000000004,
+        "fareIn": 27528.000000000004
+      },
+      "winter|777|KJA|PQC": {
+        "fareOut": 27528.000000000004,
+        "fareIn": 27528.000000000004
+      },
+      "outside|777|KJA|PQC": {
+        "fareOut": 27528.000000000004,
+        "fareIn": 27528.000000000004
+      },
+      "summer|777|VVO|PQC": {
+        "fareOut": 25197.000000000004,
+        "fareIn": 25197.000000000004
+      },
+      "winter|777|VVO|PQC": {
+        "fareOut": 25197.000000000004,
+        "fareIn": 25197.000000000004
+      },
+      "outside|777|VVO|PQC": {
+        "fareOut": 25197.000000000004,
+        "fareIn": 25197.000000000004
+      },
+      "summer|777|KHV|CXR": {
+        "fareOut": 27306.000000000004,
+        "fareIn": 27306.000000000004
+      },
+      "winter|777|KHV|CXR": {
+        "fareOut": 27306.000000000004,
+        "fareIn": 27306.000000000004
+      },
+      "outside|777|KHV|CXR": {
+        "fareOut": 27306.000000000004,
+        "fareIn": 27306.000000000004
+      },
+      "summer|777|KHV|DAD": {
+        "fareOut": 25641.000000000004,
+        "fareIn": 25641.000000000004
+      },
+      "winter|777|KHV|DAD": {
+        "fareOut": 25641.000000000004,
+        "fareIn": 25641.000000000004
+      },
+      "outside|777|KHV|DAD": {
+        "fareOut": 25641.000000000004,
+        "fareIn": 25641.000000000004
+      },
+      "summer|777|KHV|KBV": {
+        "fareOut": 30636.000000000004,
+        "fareIn": 30636.000000000004
+      },
+      "winter|777|KHV|KBV": {
+        "fareOut": 30636.000000000004,
+        "fareIn": 30636.000000000004
+      },
+      "outside|777|KHV|KBV": {
+        "fareOut": 30636.000000000004,
+        "fareIn": 30636.000000000004
+      },
+      "summer|777|VVO|KBV": {
+        "fareOut": 28527.000000000004,
+        "fareIn": 28527.000000000004
+      },
+      "winter|777|VVO|KBV": {
+        "fareOut": 28527.000000000004,
+        "fareIn": 28527.000000000004
+      },
+      "outside|777|VVO|KBV": {
+        "fareOut": 28527.000000000004,
+        "fareIn": 28527.000000000004
+      },
+      "summer|777|KHV|PQC": {
+        "fareOut": 27306.000000000004,
+        "fareIn": 27306.000000000004
+      },
+      "winter|777|KHV|PQC": {
+        "fareOut": 27306.000000000004,
+        "fareIn": 27306.000000000004
+      },
+      "outside|777|KHV|PQC": {
+        "fareOut": 27306.000000000004,
+        "fareIn": 27306.000000000004
+      },
+      "summer|777|KHV|UTP": {
+        "fareOut": 28527.000000000004,
+        "fareIn": 28527.000000000004
+      },
+      "winter|777|KHV|UTP": {
+        "fareOut": 28527.000000000004,
+        "fareIn": 28527.000000000004
+      },
+      "outside|777|KHV|UTP": {
+        "fareOut": 28527.000000000004,
+        "fareIn": 28527.000000000004
+      },
+      "summer|777|KUF|DAD": {
+        "fareOut": 34188,
+        "fareIn": 34188
+      },
+      "winter|777|KUF|DAD": {
+        "fareOut": 34188,
+        "fareIn": 34188
+      },
+      "outside|777|KUF|DAD": {
+        "fareOut": 34188,
+        "fareIn": 34188
+      },
+      "summer|777|UFA|HRG": {
+        "fareOut": 27084.000000000004,
+        "fareIn": 27084.000000000004
+      },
+      "winter|777|UFA|HRG": {
+        "fareOut": 26862.000000000004,
+        "fareIn": 26862.000000000004
+      },
+      "outside|777|UFA|HRG": {
+        "fareOut": 27084.000000000004,
+        "fareIn": 27084.000000000004
+      },
+      "summer|777|MRV|HRG": {
+        "fareOut": 21090.000000000004,
+        "fareIn": 21090.000000000004
+      },
+      "winter|777|MRV|HRG": {
+        "fareOut": 21090.000000000004,
+        "fareIn": 21090.000000000004
+      },
+      "outside|777|MRV|HRG": {
+        "fareOut": 21090.000000000004,
+        "fareIn": 21090.000000000004
+      },
+      "summer|777|UFA|GOI": {
+        "fareOut": 26640.000000000004,
+        "fareIn": 26640.000000000004
+      },
+      "winter|777|UFA|GOI": {
+        "fareOut": 26640.000000000004,
+        "fareIn": 26640.000000000004
+      },
+      "outside|777|UFA|GOI": {
+        "fareOut": 26640.000000000004,
+        "fareIn": 26640.000000000004
+      },
+      "summer|777|KUF|PQC": {
+        "fareOut": 33744,
+        "fareIn": 33744
+      },
+      "winter|777|KUF|PQC": {
+        "fareOut": 33744,
+        "fareIn": 33744
+      },
+      "outside|777|KUF|PQC": {
+        "fareOut": 33744,
+        "fareIn": 33744
+      },
+      "summer|777|UFA|CMB": {
+        "fareOut": 30969.000000000004,
+        "fareIn": 30969.000000000004
+      },
+      "winter|777|UFA|CMB": {
+        "fareOut": 30969.000000000004,
+        "fareIn": 30969.000000000004
+      },
+      "outside|777|UFA|CMB": {
+        "fareOut": 30969.000000000004,
+        "fareIn": 30969.000000000004
+      },
+      "summer|777|MRV|CMB": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "winter|777|MRV|CMB": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "outside|777|MRV|CMB": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "summer|777|AER|HKT": {
+        "fareOut": 34188,
+        "fareIn": 34188
+      },
+      "winter|777|AER|HKT": {
+        "fareOut": 34188,
+        "fareIn": 34188
+      },
+      "outside|777|AER|HKT": {
+        "fareOut": 34188,
+        "fareIn": 34188
+      },
+      "summer|777|MOW|GOI": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "winter|777|MOW|GOI": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "outside|777|MOW|GOI": {
+        "fareOut": 29859.000000000004,
+        "fareIn": 29859.000000000004
+      },
+      "summer|777|GOJ|PQC": {
+        "fareOut": 35853,
+        "fareIn": 35853
+      },
+      "winter|777|GOJ|PQC": {
+        "fareOut": 35853,
+        "fareIn": 35853
+      },
+      "outside|777|GOJ|PQC": {
+        "fareOut": 35853,
+        "fareIn": 35853
+      },
+      "summer|777|MOW|SLL": {
+        "fareOut": 26196.000000000004,
+        "fareIn": 26196.000000000004
+      },
+      "winter|777|MOW|SLL": {
+        "fareOut": 26196.000000000004,
+        "fareIn": 26196.000000000004
+      },
+      "outside|777|MOW|SLL": {
+        "fareOut": 26196.000000000004,
+        "fareIn": 26196.000000000004
+      },
+      "summer|777|KUF|SLL": {
+        "fareOut": 24309.000000000004,
+        "fareIn": 24309.000000000004
+      },
+      "winter|777|KUF|SLL": {
+        "fareOut": 24309.000000000004,
+        "fareIn": 24309.000000000004
+      },
+      "outside|777|KUF|SLL": {
+        "fareOut": 24309.000000000004,
+        "fareIn": 24309.000000000004
+      },
+      "summer|737|MOW|AYT": {
+        "fareOut": 20330,
+        "fareIn": 20330
+      },
+      "winter|737|MOW|AYT": {
+        "fareOut": 20330,
+        "fareIn": 20330
+      },
+      "outside|737|MOW|AYT": {
+        "fareOut": 20330,
+        "fareIn": 20330
+      },
+      "summer|737|KRR|AYT": {
+        "fareOut": 16585,
+        "fareIn": 16585
+      },
+      "winter|737|KRR|AYT": {
+        "fareOut": 16585,
+        "fareIn": 16585
+      },
+      "outside|737|KRR|AYT": {
+        "fareOut": 16585,
+        "fareIn": 16585
+      },
+      "summer|737|GOJ|AYT": {
+        "fareOut": 18939,
+        "fareIn": 18939
+      },
+      "winter|737|GOJ|AYT": {
+        "fareOut": 18939,
+        "fareIn": 18939
+      },
+      "outside|737|GOJ|AYT": {
+        "fareOut": 18939,
+        "fareIn": 18939
+      },
+      "summer|737|MOW|DLM": {
+        "fareOut": 21079,
+        "fareIn": 21079
+      },
+      "winter|737|MOW|DLM": {
+        "fareOut": 21079,
+        "fareIn": 21079
+      },
+      "outside|737|MOW|DLM": {
+        "fareOut": 21079,
+        "fareIn": 21079
+      },
+      "summer|737|KUF|DLM": {
+        "fareOut": 17120,
+        "fareIn": 17120
+      },
+      "winter|737|KUF|DLM": {
+        "fareOut": 17120,
+        "fareIn": 17120
+      },
+      "outside|737|KUF|DLM": {
+        "fareOut": 17120,
+        "fareIn": 17120
+      },
+      "summer|737|MOW|BJV": {
+        "fareOut": 21079,
+        "fareIn": 21079
+      },
+      "winter|737|MOW|BJV": {
+        "fareOut": 21079,
+        "fareIn": 21079
+      },
+      "outside|737|MOW|BJV": {
+        "fareOut": 21079,
+        "fareIn": 21079
+      },
+      "summer|737|UFA|BJV": {
+        "fareOut": 18618,
+        "fareIn": 18618
+      },
+      "winter|737|UFA|BJV": {
+        "fareOut": 18618,
+        "fareIn": 18618
+      },
+      "outside|737|UFA|BJV": {
+        "fareOut": 18618,
+        "fareIn": 18618
+      },
+      "summer|737|SGC|AYT": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "winter|737|SGC|AYT": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "outside|737|SGC|AYT": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "summer|737|MOW|HRG": {
+        "fareOut": 24610,
+        "fareIn": 24610
+      },
+      "winter|737|MOW|HRG": {
+        "fareOut": 24610,
+        "fareIn": 24610
+      },
+      "outside|737|MOW|HRG": {
+        "fareOut": 24610,
+        "fareIn": 24610
+      },
+      "summer|737|MOW|SSH": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "winter|737|MOW|SSH": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "outside|737|MOW|SSH": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "summer|737|MOW|DWC": {
+        "fareOut": 24717,
+        "fareIn": 24717
+      },
+      "winter|737|MOW|DWC": {
+        "fareOut": 24717,
+        "fareIn": 24717
+      },
+      "outside|737|MOW|DWC": {
+        "fareOut": 24717,
+        "fareIn": 24717
+      },
+      "summer|737|UFA|HRG": {
+        "fareOut": 26108,
+        "fareIn": 26108
+      },
+      "winter|737|UFA|HRG": {
+        "fareOut": 26108,
+        "fareIn": 26108
+      },
+      "outside|737|UFA|HRG": {
+        "fareOut": 26108,
+        "fareIn": 26108
+      },
+      "summer|737|KRR|DWC": {
+        "fareOut": 20758,
+        "fareIn": 20758
+      },
+      "winter|737|KRR|DWC": {
+        "fareOut": 20758,
+        "fareIn": 20758
+      },
+      "outside|737|KRR|DWC": {
+        "fareOut": 20758,
+        "fareIn": 20758
+      },
+      "summer|737|SGC|DWC": {
+        "fareOut": 26964,
+        "fareIn": 26964
+      },
+      "winter|737|SGC|DWC": {
+        "fareOut": 26964,
+        "fareIn": 26964
+      },
+      "outside|737|SGC|DWC": {
+        "fareOut": 26964,
+        "fareIn": 26964
+      },
+      "summer|737|MOW|MCT": {
+        "fareOut": 23005,
+        "fareIn": 23005
+      },
+      "winter|737|MOW|MCT": {
+        "fareOut": 23005,
+        "fareIn": 23005
+      },
+      "outside|737|MOW|MCT": {
+        "fareOut": 23005,
+        "fareIn": 23005
+      },
+      "summer|737|GOJ|HRG": {
+        "fareOut": 25359,
+        "fareIn": 25359
+      },
+      "winter|737|GOJ|HRG": {
+        "fareOut": 25359,
+        "fareIn": 25359
+      },
+      "outside|737|GOJ|HRG": {
+        "fareOut": 25359,
+        "fareIn": 25359
+      },
+      "summer|737|KUF|SSH": {
+        "fareOut": 19581,
+        "fareIn": 19581
+      },
+      "winter|737|KUF|SSH": {
+        "fareOut": 19581,
+        "fareIn": 19581
+      },
+      "outside|737|KUF|SSH": {
+        "fareOut": 19581,
+        "fareIn": 19581
+      },
+      "summer|737|MOW|SLL": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "winter|737|MOW|SLL": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "outside|737|MOW|SLL": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "summer|737|LED|AYT": {
+        "fareOut": 21507,
+        "fareIn": 21507
+      },
+      "winter|737|LED|AYT": {
+        "fareOut": 21507,
+        "fareIn": 21507
+      },
+      "outside|737|LED|AYT": {
+        "fareOut": 21507,
+        "fareIn": 21507
+      },
+      "summer|737|KGD|AYT": {
+        "fareOut": 20330,
+        "fareIn": 20330
+      },
+      "winter|737|KGD|AYT": {
+        "fareOut": 20330,
+        "fareIn": 20330
+      },
+      "outside|737|KGD|AYT": {
+        "fareOut": 20330,
+        "fareIn": 20330
+      },
+      "summer|737|LED|DLM": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "winter|737|LED|DLM": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "outside|737|LED|DLM": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "summer|737|GOJ|DLM": {
+        "fareOut": 17013,
+        "fareIn": 17013
+      },
+      "winter|737|GOJ|DLM": {
+        "fareOut": 17013,
+        "fareIn": 17013
+      },
+      "outside|737|GOJ|DLM": {
+        "fareOut": 17013,
+        "fareIn": 17013
+      },
+      "summer|737|PEE|AYT": {
+        "fareOut": 21507,
+        "fareIn": 21507
+      },
+      "winter|737|PEE|AYT": {
+        "fareOut": 21507,
+        "fareIn": 21507
+      },
+      "outside|737|PEE|AYT": {
+        "fareOut": 21507,
+        "fareIn": 21507
+      },
+      "summer|737|LED|BJV": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "winter|737|LED|BJV": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "outside|737|LED|BJV": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "summer|737|VOG|BJV": {
+        "fareOut": 14766,
+        "fareIn": 14766
+      },
+      "winter|737|VOG|BJV": {
+        "fareOut": 14766,
+        "fareIn": 14766
+      },
+      "outside|737|VOG|BJV": {
+        "fareOut": 14766,
+        "fareIn": 14766
+      },
+      "summer|737|LED|HRG": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "winter|737|LED|HRG": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "outside|737|LED|HRG": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "summer|737|LED|SSH": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "winter|737|LED|SSH": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "outside|737|LED|SSH": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "summer|737|PEE|HRG": {
+        "fareOut": 27071,
+        "fareIn": 27071
+      },
+      "winter|737|PEE|HRG": {
+        "fareOut": 27071,
+        "fareIn": 27071
+      },
+      "outside|737|PEE|HRG": {
+        "fareOut": 27071,
+        "fareIn": 27071
+      },
+      "summer|737|LED|DWC": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "winter|737|LED|DWC": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "outside|737|LED|DWC": {
+        "fareOut": 24824,
+        "fareIn": 24824
+      },
+      "summer|737|VOG|SSH": {
+        "fareOut": 17120,
+        "fareIn": 17120
+      },
+      "winter|737|VOG|SSH": {
+        "fareOut": 17120,
+        "fareIn": 17120
+      },
+      "outside|737|VOG|SSH": {
+        "fareOut": 17120,
+        "fareIn": 17120
+      },
+      "summer|737|KGD|HRG": {
+        "fareOut": 25038,
+        "fareIn": 25038
+      },
+      "winter|737|KGD|HRG": {
+        "fareOut": 25038,
+        "fareIn": 25038
+      },
+      "outside|737|KGD|HRG": {
+        "fareOut": 25038,
+        "fareIn": 25038
+      },
+      "summer|737|LED|MCT": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "winter|737|LED|MCT": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "outside|737|LED|MCT": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "summer|737|GOJ|SSH": {
+        "fareOut": 20116,
+        "fareIn": 20116
+      },
+      "winter|737|GOJ|SSH": {
+        "fareOut": 20116,
+        "fareIn": 20116
+      },
+      "outside|737|GOJ|SSH": {
+        "fareOut": 20116,
+        "fareIn": 20116
+      },
+      "summer|737|KZN|AYT": {
+        "fareOut": 19474,
+        "fareIn": 19474
+      },
+      "winter|737|KZN|AYT": {
+        "fareOut": 19260,
+        "fareIn": 19260
+      },
+      "outside|737|KZN|AYT": {
+        "fareOut": 19474,
+        "fareIn": 19474
+      },
+      "summer|737|UFA|AYT": {
+        "fareOut": 20437,
+        "fareIn": 20437
+      },
+      "winter|737|UFA|AYT": {
+        "fareOut": 20437,
+        "fareIn": 20437
+      },
+      "outside|737|UFA|AYT": {
+        "fareOut": 20437,
+        "fareIn": 20437
+      },
+      "summer|737|KUF|AYT": {
+        "fareOut": 19260,
+        "fareIn": 19260
+      },
+      "winter|737|KUF|AYT": {
+        "fareOut": 19260,
+        "fareIn": 19260
+      },
+      "outside|737|KUF|AYT": {
+        "fareOut": 19260,
+        "fareIn": 19260
+      },
+      "summer|737|KZN|DLM": {
+        "fareOut": 17548,
+        "fareIn": 17548
+      },
+      "winter|737|KZN|DLM": {
+        "fareOut": 17548,
+        "fareIn": 17548
+      },
+      "outside|737|KZN|DLM": {
+        "fareOut": 17548,
+        "fareIn": 17548
+      },
+      "summer|737|CEK|DLM": {
+        "fareOut": 20116,
+        "fareIn": 20116
+      },
+      "winter|737|CEK|DLM": {
+        "fareOut": 20116,
+        "fareIn": 20116
+      },
+      "outside|737|CEK|DLM": {
+        "fareOut": 20116,
+        "fareIn": 20116
+      },
+      "summer|737|TJM|AYT": {
+        "fareOut": 23005,
+        "fareIn": 23005
+      },
+      "winter|737|TJM|AYT": {
+        "fareOut": 23005,
+        "fareIn": 23005
+      },
+      "outside|737|TJM|AYT": {
+        "fareOut": 23005,
+        "fareIn": 23005
+      },
+      "summer|737|OMS|AYT": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "winter|737|OMS|AYT": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "outside|737|OMS|AYT": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "summer|737|KZN|HRG": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "winter|737|KZN|HRG": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "outside|737|KZN|HRG": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "summer|737|KZN|DWC": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "winter|737|KZN|DWC": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "outside|737|KZN|DWC": {
+        "fareOut": 21828,
+        "fareIn": 21828
+      },
+      "summer|737|KZN|SSH": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "winter|737|KZN|SSH": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "outside|737|KZN|SSH": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "summer|737|CEK|HRG": {
+        "fareOut": 27285,
+        "fareIn": 27285
+      },
+      "winter|737|CEK|HRG": {
+        "fareOut": 27285,
+        "fareIn": 27285
+      },
+      "outside|737|CEK|HRG": {
+        "fareOut": 27285,
+        "fareIn": 27285
+      },
+      "summer|737|KZN|BJV": {
+        "fareOut": 17548,
+        "fareIn": 17548
+      },
+      "winter|737|KZN|BJV": {
+        "fareOut": 17548,
+        "fareIn": 17548
+      },
+      "outside|737|KZN|BJV": {
+        "fareOut": 17548,
+        "fareIn": 17548
+      },
+      "summer|737|TJM|SSH": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "winter|737|TJM|SSH": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "outside|737|TJM|SSH": {
+        "fareOut": 23326,
+        "fareIn": 23326
+      },
+      "summer|737|KZN|GOI": {
+        "fareOut": 26857,
+        "fareIn": 26857
+      },
+      "winter|737|KZN|GOI": {
+        "fareOut": 26857,
+        "fareIn": 26857
+      },
+      "outside|737|KZN|GOI": {
+        "fareOut": 26857,
+        "fareIn": 26857
+      },
+      "summer|737|KZN|SLL": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "winter|737|KZN|SLL": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "outside|737|KZN|SLL": {
+        "fareOut": 24503,
+        "fareIn": 24503
+      },
+      "summer|737|OMS|SLL": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "winter|737|OMS|SLL": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "outside|737|OMS|SLL": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "summer|737|VVO|CXR": {
+        "fareOut": 24075,
+        "fareIn": 24075
+      },
+      "winter|737|VVO|CXR": {
+        "fareOut": 24075,
+        "fareIn": 24075
+      },
+      "outside|737|VVO|CXR": {
+        "fareOut": 24075,
+        "fareIn": 24075
+      },
+      "summer|737|KHV|CXR": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "winter|737|KHV|CXR": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "outside|737|KHV|CXR": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "summer|737|BQS|CXR": {
+        "fareOut": 25787,
+        "fareIn": 25787
+      },
+      "winter|737|BQS|CXR": {
+        "fareOut": 25787,
+        "fareIn": 25787
+      },
+      "outside|737|BQS|CXR": {
+        "fareOut": 25787,
+        "fareIn": 25787
+      },
+      "summer|737|VVO|HKT": {
+        "fareOut": 27820,
+        "fareIn": 27820
+      },
+      "winter|737|VVO|HKT": {
+        "fareOut": 27820,
+        "fareIn": 27820
+      },
+      "outside|737|VVO|HKT": {
+        "fareOut": 27820,
+        "fareIn": 27820
+      },
+      "summer|737|HTA|HKT": {
+        "fareOut": 27606,
+        "fareIn": 27606
+      },
+      "winter|737|HTA|HKT": {
+        "fareOut": 27606,
+        "fareIn": 27606
+      },
+      "outside|737|HTA|HKT": {
+        "fareOut": 27606,
+        "fareIn": 27606
+      },
+      "summer|737|BAX|CXR": {
+        "fareOut": 28034,
+        "fareIn": 28034
+      },
+      "winter|737|BAX|CXR": {
+        "fareOut": 28034,
+        "fareIn": 28034
+      },
+      "outside|737|BAX|CXR": {
+        "fareOut": 28034,
+        "fareIn": 28034
+      },
+      "summer|737|VVO|DAD": {
+        "fareOut": 22363,
+        "fareIn": 22363
+      },
+      "winter|737|VVO|DAD": {
+        "fareOut": 22363,
+        "fareIn": 22363
+      },
+      "outside|737|VVO|DAD": {
+        "fareOut": 22363,
+        "fareIn": 22363
+      },
+      "summer|737|NOZ|DAD": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "winter|737|NOZ|DAD": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "outside|737|NOZ|DAD": {
+        "fareOut": 25466,
+        "fareIn": 25466
+      },
+      "summer|737|NOZ|CXR": {
+        "fareOut": 27606,
+        "fareIn": 27606
+      },
+      "winter|737|NOZ|CXR": {
+        "fareOut": 27606,
+        "fareIn": 27606
+      },
+      "outside|737|NOZ|CXR": {
+        "fareOut": 27606,
+        "fareIn": 27606
+      },
+      "summer|737|VVO|UTP": {
+        "fareOut": 25038,
+        "fareIn": 25038
+      },
+      "winter|737|VVO|UTP": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "outside|737|VVO|UTP": {
+        "fareOut": 25252,
+        "fareIn": 25252
+      },
+      "summer|737|NOZ|UTP": {
+        "fareOut": 26108,
+        "fareIn": 26108
+      },
+      "winter|737|NOZ|UTP": {
+        "fareOut": 26108,
+        "fareIn": 26108
+      },
+      "outside|737|NOZ|UTP": {
+        "fareOut": 26108,
+        "fareIn": 26108
+      },
+      "summer|737|VVO|KBV": {
+        "fareOut": 27499,
+        "fareIn": 27499
+      },
+      "winter|737|VVO|KBV": {
+        "fareOut": 27499,
+        "fareIn": 27499
+      },
+      "outside|737|VVO|KBV": {
+        "fareOut": 27499,
+        "fareIn": 27499
+      },
+      "summer|737|VVO|PQC": {
+        "fareOut": 24289,
+        "fareIn": 24289
+      },
+      "winter|737|VVO|PQC": {
+        "fareOut": 24289,
+        "fareIn": 24289
+      },
+      "outside|737|VVO|PQC": {
+        "fareOut": 24289,
+        "fareIn": 24289
+      },
+      "summer|737|KHV|PQC": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "winter|737|KHV|PQC": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "outside|737|KHV|PQC": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "summer|737|BQS|PQC": {
+        "fareOut": 25573,
+        "fareIn": 25573
+      },
+      "winter|737|BQS|PQC": {
+        "fareOut": 25573,
+        "fareIn": 25573
+      },
+      "outside|737|BQS|PQC": {
+        "fareOut": 25573,
+        "fareIn": 25573
+      },
+      "summer|737|BAX|PQC": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "winter|737|BAX|PQC": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      },
+      "outside|737|BAX|PQC": {
+        "fareOut": 26322,
+        "fareIn": 26322
+      }
+    }
+  },
+  "programme": {
+    "format": "charter-scenario-v1",
+    "baselineVersion": "0.4-no-male",
+    "overrides": [
+      {
+        "key": "winter|777|LED|SSH",
+        "targetDepartures": 0
+      },
+      {
+        "key": "summer|777|MOW|HRG",
+        "targetDepartures": 50
+      },
+      {
+        "key": "winter|777|MOW|HRG",
+        "targetDepartures": 32
+      }
+    ],
+    "cargo": {
+      "outbound": 0,
+      "inbound": 0
+    }
+  },
+  "status": "illustrative-assumptions-not-quotes",
+  "notes": "LF95%оба направления; расходы и география текущей модели. Тарифы зафиксированы до частотных правок. Новые продажи не подтверждены.",
+  "format": "charter-economics-v1",
+  "baselineVersion": "0.4-no-male",
+  "calculatedAt": "2026-10-30T12:43:59.705Z",
+  "preset": "base",
+  "assumptions": [
+    {
+      "id": "usdRub",
+      "scope": "all",
+      "parameter": "usdRub",
+      "label": "Курс",
+      "value": 90,
+      "unit": "RUB/USD",
+      "low": 70,
+      "high": 120,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "loadOut",
+      "scope": "all",
+      "parameter": "loadOut",
+      "label": "LF из РФ",
+      "value": 95,
+      "unit": "%",
+      "low": 75,
+      "high": 100,
+      "status": "user-target",
+      "reference": "user-target",
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "loadIn",
+      "scope": "all",
+      "parameter": "loadIn",
+      "label": "LF в РФ",
+      "value": 95,
+      "unit": "%",
+      "low": 75,
+      "high": 100,
+      "status": "user-target",
+      "reference": "user-target",
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "fareFactor",
+      "scope": "all",
+      "parameter": "fareFactor",
+      "label": "Множитель нетто пассажирских ставок",
+      "value": 1,
+      "unit": "доля",
+      "low": 0.75,
+      "high": 1.15,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "cargoSold",
+      "scope": "all",
+      "parameter": "cargoSold",
+      "label": "Проданная доля плана груза",
+      "value": 100,
+      "unit": "%",
+      "low": 0,
+      "high": 100,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "cargoRateUsd",
+      "scope": "all",
+      "parameter": "cargoRateUsd",
+      "label": "Доход груза нетто",
+      "value": 2.5,
+      "unit": "USD/kg",
+      "low": 1.5,
+      "high": 3.5,
+      "status": "model-assumption",
+      "reference": "R7-context-only",
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "balancingFareFactor",
+      "scope": "all",
+      "parameter": "balancingFareFactor",
+      "label": "Ставка встречного блока относительно основной",
+      "value": 0.85,
+      "unit": "доля",
+      "low": 0.7,
+      "high": 1,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "fuelRussiaRub",
+      "scope": "all",
+      "parameter": "fuelRussiaRub",
+      "label": "Топливо РФ в крыло",
+      "value": 125000,
+      "unit": "RUB/t",
+      "low": 110000,
+      "high": 155000,
+      "status": "model-assumption",
+      "reference": "COST-02",
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "fuelForeignUsd",
+      "scope": "all",
+      "parameter": "fuelForeignUsd",
+      "label": "Топливо зарубежье в крыло",
+      "value": 1650,
+      "unit": "USD/t",
+      "low": 1300,
+      "high": 2000,
+      "status": "model-assumption",
+      "reference": "COST-01-context-only",
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "otherVariablePct",
+      "scope": "all",
+      "parameter": "otherVariablePct",
+      "label": "Прочие переменные: поездки/сбои/прочее",
+      "value": 5,
+      "unit": "%",
+      "low": 3,
+      "high": 10,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "overheadMonthlyRub",
+      "scope": "all",
+      "parameter": "overheadMonthlyRub",
+      "label": "Общехозяйственные расходы всего парка",
+      "value": 80000000,
+      "unit": "RUB/month",
+      "low": 40000000,
+      "high": 130000000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+    },
+    {
+      "id": "737-fuelTph",
+      "scope": "737",
+      "parameter": "fuelTph",
+      "label": "Расход топлива",
+      "value": 2.5,
+      "unit": "t/block-hour",
+      "low": 2.2,
+      "high": 2.9,
+      "status": "model-assumption",
+      "reference": "COST-04-context-only",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-maintenanceUsdBh",
+      "scope": "737",
+      "parameter": "maintenanceUsdBh",
+      "label": "ТО и резервы по часам",
+      "value": 650,
+      "unit": "USD/block-hour",
+      "low": 450,
+      "high": 1000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-maintenanceUsdCycle",
+      "scope": "737",
+      "parameter": "maintenanceUsdCycle",
+      "label": "ТО и резервы по циклам",
+      "value": 180,
+      "unit": "USD/leg",
+      "low": 100,
+      "high": 300,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-airportUsdLeg",
+      "scope": "737",
+      "parameter": "airportUsdLeg",
+      "label": "Аэропорт и handling обоих концов",
+      "value": 4250,
+      "unit": "USD/leg",
+      "low": 2500,
+      "high": 6500,
+      "status": "model-assumption",
+      "reference": "COST-06-context-only",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-navigationUsdBh",
+      "scope": "737",
+      "parameter": "navigationUsdBh",
+      "label": "Навигация",
+      "value": 180,
+      "unit": "USD/block-hour",
+      "low": 100,
+      "high": 300,
+      "status": "model-assumption",
+      "reference": "COST-07-context-only",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-passengerRub",
+      "scope": "737",
+      "parameter": "passengerRub",
+      "label": "Питание и пассажирское обслуживание, вне транзитных налогов",
+      "value": 1200,
+      "unit": "RUB/pax",
+      "low": 700,
+      "high": 2000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-cargoHandlingUsdKg",
+      "scope": "737",
+      "parameter": "cargoHandlingUsdKg",
+      "label": "Обработка груза",
+      "value": 0,
+      "unit": "USD/kg",
+      "low": 0,
+      "high": 0,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-leaseUsdMonth",
+      "scope": "737",
+      "parameter": "leaseUsdMonth",
+      "label": "Аренда",
+      "value": 410000,
+      "unit": "USD/aircraft/month",
+      "low": 330000,
+      "high": 500000,
+      "status": "model-assumption",
+      "reference": "COST-05",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-insuranceUsdMonth",
+      "scope": "737",
+      "parameter": "insuranceUsdMonth",
+      "label": "Страхование",
+      "value": 20000,
+      "unit": "USD/aircraft/month",
+      "low": 10000,
+      "high": 40000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "737-crewRubMonth",
+      "scope": "737",
+      "parameter": "crewRubMonth",
+      "label": "Постоянный ФОТ и подготовка персонала",
+      "value": 16200000,
+      "unit": "RUB/aircraft/month",
+      "low": 9000000,
+      "high": 25200000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-fuelTph",
+      "scope": "777",
+      "parameter": "fuelTph",
+      "label": "Расход топлива",
+      "value": 8,
+      "unit": "t/block-hour",
+      "low": 7.2,
+      "high": 9,
+      "status": "model-assumption",
+      "reference": "COST-04-context-only",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-maintenanceUsdBh",
+      "scope": "777",
+      "parameter": "maintenanceUsdBh",
+      "label": "ТО и резервы по часам",
+      "value": 2200,
+      "unit": "USD/block-hour",
+      "low": 1500,
+      "high": 3200,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-maintenanceUsdCycle",
+      "scope": "777",
+      "parameter": "maintenanceUsdCycle",
+      "label": "ТО и резервы по циклам",
+      "value": 350,
+      "unit": "USD/leg",
+      "low": 200,
+      "high": 600,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-airportUsdLeg",
+      "scope": "777",
+      "parameter": "airportUsdLeg",
+      "label": "Аэропорт и handling обоих концов",
+      "value": 9500,
+      "unit": "USD/leg",
+      "low": 6000,
+      "high": 15000,
+      "status": "model-assumption",
+      "reference": "COST-06-context-only",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-navigationUsdBh",
+      "scope": "777",
+      "parameter": "navigationUsdBh",
+      "label": "Навигация",
+      "value": 450,
+      "unit": "USD/block-hour",
+      "low": 300,
+      "high": 700,
+      "status": "model-assumption",
+      "reference": "COST-07-context-only",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-passengerRub",
+      "scope": "777",
+      "parameter": "passengerRub",
+      "label": "Питание и пассажирское обслуживание, вне транзитных налогов",
+      "value": 1800,
+      "unit": "RUB/pax",
+      "low": 1000,
+      "high": 3000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-cargoHandlingUsdKg",
+      "scope": "777",
+      "parameter": "cargoHandlingUsdKg",
+      "label": "Обработка груза",
+      "value": 0.18,
+      "unit": "USD/kg",
+      "low": 0.1,
+      "high": 0.35,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-leaseUsdMonth",
+      "scope": "777",
+      "parameter": "leaseUsdMonth",
+      "label": "Аренда",
+      "value": 550000,
+      "unit": "USD/aircraft/month",
+      "low": 400000,
+      "high": 700000,
+      "status": "model-assumption",
+      "reference": "COST-05",
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-insuranceUsdMonth",
+      "scope": "777",
+      "parameter": "insuranceUsdMonth",
+      "label": "Страхование",
+      "value": 40000,
+      "unit": "USD/aircraft/month",
+      "low": 20000,
+      "high": 80000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "777-crewRubMonth",
+      "scope": "777",
+      "parameter": "crewRubMonth",
+      "label": "Постоянный ФОТ и подготовка персонала",
+      "value": 36000000,
+      "unit": "RUB/aircraft/month",
+      "low": 22500000,
+      "high": 54000000,
+      "status": "model-assumption",
+      "reference": null,
+      "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+    },
+    {
+      "id": "net-fare-rule",
+      "scope": "route",
+      "label": "Стартовая пассажирская ставка",
+      "value": null,
+      "unit": "RUB/pax/leg",
+      "formula": "round((5000+2800*mean baseline block hours)/100)*100",
+      "status": "model-assumption",
+      "note": "Нетто экономический эквивалент; сезонный коэффициент1. Тарифы каждого плеча редактируются. Формула не откалибрована по средней рыночной доходности."
+    },
+    {
+      "id": "cargo-target",
+      "scope": "777",
+      "label": "План груза в РФ",
+      "value": 20,
+      "unit": "t/inbound-leg",
+      "status": "user-target",
+      "note": "На исходном сценарии; редактируется в программе. Payload/спрос не подтверждены. Из РФ0;7370."
+    },
+    {
+      "id": "preset-rule",
+      "scope": "all",
+      "label": "Неблагоприятные / благоприятные условия",
+      "status": "model-assumption",
+      "note": "Ставки×0.8/1.15;LF−10/+2п.п.;реализациягруза×.5/1;топливо×1.2/.9;прочиепеременные×1.1/.95. Постоянный пул неизменен. Не статистический прогноз."
+    },
+    {
+      "id": "fixed-allocation",
+      "scope": "all",
+      "label": "Постоянные расходы",
+      "status": "model-method",
+      "note": "Все10+5ВС включаярезерв;12×days/365.217/147дней. Доли по исходномуBHсезон×тип,приотменерейсадолясохраняется. Не является основанием считать отмену экономией аренды."
+    },
+    {
+      "id": "passenger-method",
+      "scope": "all",
+      "label": "Ожидаемые пассажиры экономики",
+      "status": "model-method",
+      "note": "Кресла×LF,безceilоперационнойцели. Доход учитывает долюownPax/targetPax и скидкувстречногоблока. Нетпродажилидоговора."
+    },
+    {
+      "id": "exclusions",
+      "scope": "all",
+      "label": "Граница результата",
+      "status": "model-method",
+      "note": "До налогана прибыль/финансирования; нетCAPEX,депозитов,оборотного капитала. Ставки netбезкомиссийитранзитныхналогов,топливобезвозмещаемогоНДС."
+    }
+  ],
+  "sources": [
+    {
+      "id": "COST-01",
+      "title": "IATA Jet Fuel Price Monitor",
+      "url": "https://www.iata.org/en/publications/economics/fuel-monitor/",
+      "date": "проверка 30.10.2026",
+      "scope": "Страница показывает $196.70/bbl; IATA прямо определяет показатель как среднюю цену на НПЗ за отчётную неделю. Дата недели в доступном тексте не указана.",
+      "limitation": "Это не заправка в крыло и не прогноз 2027. Перевод в $/т требует плотности. При условных 0.80 кг/л и 158.987 л/bbl получается около $1547/т до логистики/заправки.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "COST-02",
+      "title": "АО «АЭРО-Шереметьево», прейскурант",
+      "url": "https://tzkaero.ru/wp-content/uploads/2026/08/prejskurant-tsen-ao-aero-sheremetevo-1.pdf",
+      "date": "опубликованные даты начала ставок 02.09.2026 / 16.01.2026",
+      "scope": "Авиационное топливо 121500 руб/т без НДС; обеспечение заправки 2460 руб/т; хранение 2090 руб/т отдельной услугой.",
+      "limitation": "Топливо+заправка =123960 руб/т до возможных дополнительных услуг; хранение нельзя автоматически прибавлять, не проверив договор. Один поставщик одного аэропорта, не вся РФ.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "COST-03",
+      "title": "EUROCONTROL, Aircraft operating costs",
+      "url": "https://pru-portal.netlify.app/economics/cba/standard-inputs/chapters/aircraft_operating_costs.html",
+      "date": "release10.0.2, цены2025",
+      "scope": "B777 $10632/flight-hour; B737NG $4850/flight-hour. Совокупность включает топливо, экипаж, аренду/амортизацию, посадку, наземное обслуживание и ТО.",
+      "limitation": "Только внешняя сверка порядка величины. Не ставка MAX8, не конкретный777-300ER, не РФ. Нельзя добавлять к ней отдельные топливо/лизинг/ТО; это doublecount. Источник также отмечает неполный учёт пассажирских аэропортовых сборов.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "COST-04",
+      "title": "EUROCONTROL, Rate of fuel burn",
+      "url": "https://pru-portal.netlify.app/economics/cba/standard-inputs/chapters/rate_of_fuel_burn.html",
+      "date": "release10.0.2, база2022",
+      "scope": "Средний en-route расход narrowbody40.1кг/мин≈2.406т/ч, widebody113.9кг/мин≈6.834т/ч. Это взвешенная смесь типов.",
+      "limitation": "Не типовая норма для конкретной компоновки; не учитывает погоду, конкретную массу/высоту/скорость. Прямого подтверждения расхода777при523пасс+20т нет.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "COST-05",
+      "title": "Jon Whaley, IBA — Aviation Finance Market",
+      "url": "https://iclg.com/practice-areas/aviation-finance-and-leasing/02-the-aviation-finance-market-robust-demand-entrenched-supply-chain-challenges-and-strong-market-performance/",
+      "date": "03.06.2026, оценкиQ1 2026",
+      "scope": "Автор IBA указывает MLR новогоMAX8 примерно какA320neo $395–424тыс/месяц;12-летнего777-300ER $450–587тыс/месяц. ДляGE90отмечает дефицитMRO и рост стоимости ремонта.",
+      "limitation": "Оценка оценщика, не предложение российскому оператору. Возраст/состояние/кредит/доступность/условия возврата влияют на ставку. Не подтверждает конкретные ставки ТО и страхования.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "COST-06",
+      "title": "CAAT Thailand AIP GEN4.1",
+      "url": "https://aip.caat.or.th/2026-08-06-AIRAC/html/eAIP/VT-GEN-4.1-en-GB.html",
+      "date": "AIRAC06.08.2026",
+      "scope": "Посадка основана наMTOW; дляAOT прогрессивная шкала. МеждународныйPSC Phuket/BKK до1120THB с19.06.2026; Krabiдо425THB; прочие до400THB.",
+      "limitation": "Проверять конкретный аэропорт/даты/льготы/договор. PSC — отдельный сбор с пассажира; если тариф задаётся уже net of tax, не списывать его вторично.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "COST-07",
+      "title": "CAAT Thailand AIP GEN4.2",
+      "url": "https://aip.caat.or.th/2026-08-06-AIRAC/html/eAIP/VT-GEN-4.2-en-GB.html",
+      "date": "AIRAC06.08.2026",
+      "scope": "ANS = en-route+terminal; факторыMTOW,дистанции вFIR,аэропорта. Впримечании3 туристические/грузовые чартеры имеют ставки какmemberairlines.",
+      "limitation": "Не использовать произвольную ставкуnon-member длячартера. Почасовая ставка в стартовой модели лишь усреднённый заменитель расчёта всехFIR.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "COST-08",
+      "title": "Boeing Airport Planning777",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777-200LR-300ER-F_Rev_G.pdf",
+      "date": "D6-58329-2revG Dec2024,§2.1.1p2-2",
+      "scope": "777-300ER: MTOW351534кг,MZFW237682кг,MLW251290кг. PDF прочитан локально изофициальногоURL.",
+      "limitation": "При523пасс×условные100кг сбагажом и20т груза требуетсяOEW≤165382кг без дополнительной массыULD. OEWконкретного борта идальность неизвестны:20тне подтверждены.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "R1",
+      "title": "S7: Москва–Анталья",
+      "url": "https://www.s7.ru/ru/flight/from/MOW/to/AYT/",
+      "date": "просмотр 30.10.2026",
+      "scope": "Реклама RT от 13 470 руб.; календарь: май 29 215, июнь 35 463, июль/август 31 258, сентябрь 33 380 руб. RT",
+      "limitation": "Розничные минимумы на странице авиакомпании; не средняя доходность, не котировка блока на 2027, даты и наличие мест требуют отдельного подтверждения. Нельзя приписывать эту цену всем городам РФ или всем рейсам сезона.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "R2",
+      "title": "S7: Новосибирск–Пхукет",
+      "url": "https://www.s7.ru/ru/flight/from/OVB/to/HKT/",
+      "date": "просмотр 30.10.2026",
+      "scope": "RT от 44 077 руб.; ноябрь 44 077, декабрь 55 684, январь/февраль 59 844 руб.",
+      "limitation": "Розничный ориентир масштаба; на странице есть резкие различия по месяцам. Не гарантирует прямой рейс/одинаковый продукт на каждой календарной цене; маршрут/багаж/условия проверяются при бронировании.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "R3",
+      "title": "S7: Иркутск–Пхукет",
+      "url": "https://www.s7.ru/ru/flight/from/IKT/to/HKT/",
+      "date": "просмотр 30.10.2026",
+      "scope": "RT от 42 211 руб.; ноябрь 42 211, декабрь 42 705, январь 55 786 руб.",
+      "limitation": "Подтверждает необходимость учитывать город вылета и сезон. Деление RT на два лишь условно распределяет цену пакета по плечам, а не даёт реальную OW-цену.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "R4",
+      "title": "AZUR air: чартерные перевозки",
+      "url": "https://www.azurair.ru/ru/for-business/charter-flights",
+      "date": "просмотр 30.10.2026",
+      "scope": "Перевозчик предлагает индивидуальный расчёт по городам, датам, пассажирам и сервису; публичной фиксированной цены чартерного борта нет.",
+      "limitation": "Подтверждает договорную природу цены. Формат закупки целого борта/жёсткого блока нельзя вывести из доступной розничной цены.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "R5",
+      "title": "AZUR air: грузовые перевозки",
+      "url": "https://www.azurair.ru/ru/for-business/cargo-transportation",
+      "date": "просмотр 30.10.2026",
+      "scope": "Грузы на собственных рейсах принимаются от уполномоченных агентов с договорами; указаны агенты в Таиланде, Вьетнаме, Шри-Ланке и других странах.",
+      "limitation": "Это свидетельство существования канала продаж belly cargo, но не наличия 20 т на каждом нашем курортном рейсе и не ставки по нашим парам городов.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "R6",
+      "title": "Аэрофлот: грузовые перевозки",
+      "url": "https://www.aeroflot.ru/products/cargo/",
+      "date": "просмотр 30.10.2026",
+      "scope": "Цена рассчитывается с учётом маршрута, веса/габаритов, типа груза и срочности; отправка начинается с бронирования и подтверждения. Публичные ссылки в основном относятся к отправкам из РФ.",
+      "limitation": "Не переносить экспортную ставку из Москвы на обратное плечо из Азии. Требуется отдельная net-котировка агента/отправителя для каждой пары, периода и продукта.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    },
+    {
+      "id": "R7",
+      "title": "WorldACD: неделя 37 2026",
+      "url": "https://www.worldacd.com/trend-reports/weekly/worldacd-weekly-air-cargo-trends-2026-week-37/",
+      "date": "опубликовано 21.09.2026",
+      "scope": "Средняя spot-ставка из Asia Pacific за 7–13 сентября — 4,69 USD/kg.",
+      "limitation": "Первичный агрегатор транзакций. Это широкий региональный spot-индикатор, не Азия→РФ и не наши курортные аэропорты. Только ориентир для чувствительности, не источник значения 2,5 USD/kg в модели.",
+      "checkedAt": "2026-10-30",
+      "status": "public-reference-not-contract"
+    }
+  ]
+}

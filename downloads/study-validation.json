@@ -1,0 +1,178 @@
+{
+  "checked": "2026-10-30",
+  "cases": [
+    {
+      "id": "base",
+      "result": -4735051587.7945175,
+      "revenue": 108769381063.5,
+      "margin": -4.353294595866253,
+      "BE": 99.42301397221881,
+      "hours": 76229.03333333373,
+      "resource": "fits",
+      "balancing": 216326,
+      "daily": [
+        {
+          "season": "Лето 2027",
+          "type": "777",
+          "daily": 16.09172213688354
+        },
+        {
+          "season": "Лето 2027",
+          "type": "737",
+          "daily": 16.130030721966225
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "777",
+          "daily": 16.028508440413294
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "737",
+          "daily": 16.31856575963717
+        }
+      ]
+    },
+    {
+      "id": "frequency",
+      "result": -4731746869.7945175,
+      "revenue": 108837697406.5,
+      "margin": -4.3475257034534875,
+      "BE": 99.4172172036063,
+      "hours": 76267.36666666705,
+      "resource": "fits",
+      "balancing": 217372,
+      "daily": [
+        {
+          "season": "Лето 2027",
+          "type": "777",
+          "daily": 16.104864311316035
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "777",
+          "daily": 16.03808264046369
+        },
+        {
+          "season": "Лето 2027",
+          "type": "737",
+          "daily": 16.130030721966225
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "737",
+          "daily": 16.31856575963717
+        }
+      ]
+    },
+    {
+      "id": "positive",
+      "result": 1143782801.8354874,
+      "revenue": 114713227078.13,
+      "margin": 0.9970801371113626,
+      "BE": 93.99053024692793,
+      "hours": 76267.36666666705,
+      "resource": "fits",
+      "balancing": 217372,
+      "daily": [
+        {
+          "season": "Лето 2027",
+          "type": "777",
+          "daily": 16.104864311316035
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "777",
+          "daily": 16.03808264046369
+        },
+        {
+          "season": "Лето 2027",
+          "type": "737",
+          "daily": 16.130030721966225
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "737",
+          "daily": 16.31856575963717
+        }
+      ]
+    },
+    {
+      "id": "buffer",
+      "result": 6585667672.16053,
+      "revenue": 120155111948.45505,
+      "margin": 5.4809716918125755,
+      "BE": 89.4673879495676,
+      "hours": 76267.36666666705,
+      "resource": "fits",
+      "balancing": 217372,
+      "daily": [
+        {
+          "season": "Лето 2027",
+          "type": "777",
+          "daily": 16.104864311316035
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "777",
+          "daily": 16.03808264046369
+        },
+        {
+          "season": "Лето 2027",
+          "type": "737",
+          "daily": 16.130030721966225
+        },
+        {
+          "season": "Зима 2027/28",
+          "type": "737",
+          "daily": 16.31856575963717
+        }
+      ]
+    }
+  ],
+  "frequencyChanges": [
+    {
+      "key": "summer|777|MOW|HRG",
+      "season": "Лето 2027",
+      "seasonKey": "summer",
+      "type": "777",
+      "base": "MOW",
+      "dest": "HRG",
+      "before": 48,
+      "after": 50,
+      "beforeDepartures": 48,
+      "afterDepartures": 50,
+      "delta": 2,
+      "requested": true
+    },
+    {
+      "key": "winter|777|MOW|HRG",
+      "season": "Зима 2027/28",
+      "seasonKey": "winter",
+      "type": "777",
+      "base": "MOW",
+      "dest": "HRG",
+      "before": 30,
+      "after": 32,
+      "beforeDepartures": 30,
+      "afterDepartures": 32,
+      "delta": 2,
+      "requested": true
+    },
+    {
+      "key": "winter|777|LED|SSH",
+      "season": "Зима 2027/28",
+      "seasonKey": "winter",
+      "type": "777",
+      "base": "LED",
+      "dest": "SSH",
+      "before": 1,
+      "after": 0,
+      "beforeDepartures": 1,
+      "afterDepartures": 0,
+      "delta": -1,
+      "requested": true
+    }
+  ],
+  "allFourAssertionsPassed": true
+}
