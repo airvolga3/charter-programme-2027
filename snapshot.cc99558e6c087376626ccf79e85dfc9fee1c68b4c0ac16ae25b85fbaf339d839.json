@@ -836019,6 +836019,630 @@
           }
         ]
       }
+    },
+    "economicsSources": {
+      "source": {
+        "label": "Первичные публичные ориентиры; не подтверждают договорные ставки программы 2027/28",
+        "filters": [
+          "Проверено 30.10.2026",
+          "Курс, доходы и операционные расходы модели являются отдельными допущениями",
+          "Нет конфиденциальных корпоративных ставок"
+        ]
+      },
+      "rows": [
+        {
+          "id": "COST-01",
+          "title": "IATA Jet Fuel Price Monitor",
+          "url": "https://www.iata.org/en/publications/economics/fuel-monitor/",
+          "date": "проверка 30.10.2026",
+          "scope": "Страница показывает $196.70/bbl; IATA прямо определяет показатель как среднюю цену на НПЗ за отчётную неделю. Дата недели в доступном тексте не указана.",
+          "limitation": "Это не заправка в крыло и не прогноз 2027. Перевод в $/т требует плотности. При условных 0.80 кг/л и 158.987 л/bbl получается около $1547/т до логистики/заправки.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "COST-02",
+          "title": "АО «АЭРО-Шереметьево», прейскурант",
+          "url": "https://tzkaero.ru/wp-content/uploads/2026/08/prejskurant-tsen-ao-aero-sheremetevo-1.pdf",
+          "date": "опубликованные даты начала ставок 02.09.2026 / 16.01.2026",
+          "scope": "Авиационное топливо 121500 руб/т без НДС; обеспечение заправки 2460 руб/т; хранение 2090 руб/т отдельной услугой.",
+          "limitation": "Топливо+заправка =123960 руб/т до возможных дополнительных услуг; хранение нельзя автоматически прибавлять, не проверив договор. Один поставщик одного аэропорта, не вся РФ.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "COST-03",
+          "title": "EUROCONTROL, Aircraft operating costs",
+          "url": "https://pru-portal.netlify.app/economics/cba/standard-inputs/chapters/aircraft_operating_costs.html",
+          "date": "release10.0.2, цены2025",
+          "scope": "B777 $10632/flight-hour; B737NG $4850/flight-hour. Совокупность включает топливо, экипаж, аренду/амортизацию, посадку, наземное обслуживание и ТО.",
+          "limitation": "Только внешняя сверка порядка величины. Не ставка MAX8, не конкретный777-300ER, не РФ. Нельзя добавлять к ней отдельные топливо/лизинг/ТО; это doublecount. Источник также отмечает неполный учёт пассажирских аэропортовых сборов.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "COST-04",
+          "title": "EUROCONTROL, Rate of fuel burn",
+          "url": "https://pru-portal.netlify.app/economics/cba/standard-inputs/chapters/rate_of_fuel_burn.html",
+          "date": "release10.0.2, база2022",
+          "scope": "Средний en-route расход narrowbody40.1кг/мин≈2.406т/ч, widebody113.9кг/мин≈6.834т/ч. Это взвешенная смесь типов.",
+          "limitation": "Не типовая норма для конкретной компоновки; не учитывает погоду, конкретную массу/высоту/скорость. Прямого подтверждения расхода777при523пасс+20т нет.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "COST-05",
+          "title": "Jon Whaley, IBA — Aviation Finance Market",
+          "url": "https://iclg.com/practice-areas/aviation-finance-and-leasing/02-the-aviation-finance-market-robust-demand-entrenched-supply-chain-challenges-and-strong-market-performance/",
+          "date": "03.06.2026, оценкиQ1 2026",
+          "scope": "Автор IBA указывает MLR новогоMAX8 примерно какA320neo $395–424тыс/месяц;12-летнего777-300ER $450–587тыс/месяц. ДляGE90отмечает дефицитMRO и рост стоимости ремонта.",
+          "limitation": "Оценка оценщика, не предложение российскому оператору. Возраст/состояние/кредит/доступность/условия возврата влияют на ставку. Не подтверждает конкретные ставки ТО и страхования.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "COST-06",
+          "title": "CAAT Thailand AIP GEN4.1",
+          "url": "https://aip.caat.or.th/2026-08-06-AIRAC/html/eAIP/VT-GEN-4.1-en-GB.html",
+          "date": "AIRAC06.08.2026",
+          "scope": "Посадка основана наMTOW; дляAOT прогрессивная шкала. МеждународныйPSC Phuket/BKK до1120THB с19.06.2026; Krabiдо425THB; прочие до400THB.",
+          "limitation": "Проверять конкретный аэропорт/даты/льготы/договор. PSC — отдельный сбор с пассажира; если тариф задаётся уже net of tax, не списывать его вторично.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "COST-07",
+          "title": "CAAT Thailand AIP GEN4.2",
+          "url": "https://aip.caat.or.th/2026-08-06-AIRAC/html/eAIP/VT-GEN-4.2-en-GB.html",
+          "date": "AIRAC06.08.2026",
+          "scope": "ANS = en-route+terminal; факторыMTOW,дистанции вFIR,аэропорта. Впримечании3 туристические/грузовые чартеры имеют ставки какmemberairlines.",
+          "limitation": "Не использовать произвольную ставкуnon-member длячартера. Почасовая ставка в стартовой модели лишь усреднённый заменитель расчёта всехFIR.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "COST-08",
+          "title": "Boeing Airport Planning777",
+          "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777-200LR-300ER-F_Rev_G.pdf",
+          "date": "D6-58329-2revG Dec2024,§2.1.1p2-2",
+          "scope": "777-300ER: MTOW351534кг,MZFW237682кг,MLW251290кг. PDF прочитан локально изофициальногоURL.",
+          "limitation": "При523пасс×условные100кг сбагажом и20т груза требуетсяOEW≤165382кг без дополнительной массыULD. OEWконкретного борта идальность неизвестны:20тне подтверждены.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "R1",
+          "title": "S7: Москва–Анталья",
+          "url": "https://www.s7.ru/ru/flight/from/MOW/to/AYT/",
+          "date": "просмотр 30.10.2026",
+          "scope": "Реклама RT от 13 470 руб.; календарь: май 29 215, июнь 35 463, июль/август 31 258, сентябрь 33 380 руб. RT",
+          "limitation": "Розничные минимумы на странице авиакомпании; не средняя доходность, не котировка блока на 2027, даты и наличие мест требуют отдельного подтверждения. Нельзя приписывать эту цену всем городам РФ или всем рейсам сезона.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "R2",
+          "title": "S7: Новосибирск–Пхукет",
+          "url": "https://www.s7.ru/ru/flight/from/OVB/to/HKT/",
+          "date": "просмотр 30.10.2026",
+          "scope": "RT от 44 077 руб.; ноябрь 44 077, декабрь 55 684, январь/февраль 59 844 руб.",
+          "limitation": "Розничный ориентир масштаба; на странице есть резкие различия по месяцам. Не гарантирует прямой рейс/одинаковый продукт на каждой календарной цене; маршрут/багаж/условия проверяются при бронировании.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "R3",
+          "title": "S7: Иркутск–Пхукет",
+          "url": "https://www.s7.ru/ru/flight/from/IKT/to/HKT/",
+          "date": "просмотр 30.10.2026",
+          "scope": "RT от 42 211 руб.; ноябрь 42 211, декабрь 42 705, январь 55 786 руб.",
+          "limitation": "Подтверждает необходимость учитывать город вылета и сезон. Деление RT на два лишь условно распределяет цену пакета по плечам, а не даёт реальную OW-цену.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "R4",
+          "title": "AZUR air: чартерные перевозки",
+          "url": "https://www.azurair.ru/ru/for-business/charter-flights",
+          "date": "просмотр 30.10.2026",
+          "scope": "Перевозчик предлагает индивидуальный расчёт по городам, датам, пассажирам и сервису; публичной фиксированной цены чартерного борта нет.",
+          "limitation": "Подтверждает договорную природу цены. Формат закупки целого борта/жёсткого блока нельзя вывести из доступной розничной цены.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "R5",
+          "title": "AZUR air: грузовые перевозки",
+          "url": "https://www.azurair.ru/ru/for-business/cargo-transportation",
+          "date": "просмотр 30.10.2026",
+          "scope": "Грузы на собственных рейсах принимаются от уполномоченных агентов с договорами; указаны агенты в Таиланде, Вьетнаме, Шри-Ланке и других странах.",
+          "limitation": "Это свидетельство существования канала продаж belly cargo, но не наличия 20 т на каждом нашем курортном рейсе и не ставки по нашим парам городов.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "R6",
+          "title": "Аэрофлот: грузовые перевозки",
+          "url": "https://www.aeroflot.ru/products/cargo/",
+          "date": "просмотр 30.10.2026",
+          "scope": "Цена рассчитывается с учётом маршрута, веса/габаритов, типа груза и срочности; отправка начинается с бронирования и подтверждения. Публичные ссылки в основном относятся к отправкам из РФ.",
+          "limitation": "Не переносить экспортную ставку из Москвы на обратное плечо из Азии. Требуется отдельная net-котировка агента/отправителя для каждой пары, периода и продукта.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        },
+        {
+          "id": "R7",
+          "title": "WorldACD: неделя 37 2026",
+          "url": "https://www.worldacd.com/trend-reports/weekly/worldacd-weekly-air-cargo-trends-2026-week-37/",
+          "date": "опубликовано 21.09.2026",
+          "scope": "Средняя spot-ставка из Asia Pacific за 7–13 сентября — 4,69 USD/kg.",
+          "limitation": "Первичный агрегатор транзакций. Это широкий региональный spot-индикатор, не Азия→РФ и не наши курортные аэропорты. Только ориентир для чувствительности, не источник значения 2,5 USD/kg в модели.",
+          "checkedAt": "2026-10-30",
+          "status": "public-reference-not-contract"
+        }
+      ]
+    },
+    "economicsAssumptions": {
+      "source": {
+        "label": "Сценарные ставки экономики 2027/28; не факт, не бюджет и не договор",
+        "filters": [
+          "Открытые источники отдельно: economicsSources",
+          "Выручка рассчитывает целевые продажи",
+          "Расходы всех15ВС,включаярезерв; удалениечастотнесокращаетпостоянныйпул"
+        ]
+      },
+      "rows": [
+        {
+          "id": "usdRub",
+          "scope": "all",
+          "parameter": "usdRub",
+          "label": "Курс",
+          "value": 90,
+          "unit": "RUB/USD",
+          "low": 70,
+          "high": 120,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "loadOut",
+          "scope": "all",
+          "parameter": "loadOut",
+          "label": "LF из РФ",
+          "value": 95,
+          "unit": "%",
+          "low": 75,
+          "high": 100,
+          "status": "user-target",
+          "reference": "user-target",
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "loadIn",
+          "scope": "all",
+          "parameter": "loadIn",
+          "label": "LF в РФ",
+          "value": 95,
+          "unit": "%",
+          "low": 75,
+          "high": 100,
+          "status": "user-target",
+          "reference": "user-target",
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "fareFactor",
+          "scope": "all",
+          "parameter": "fareFactor",
+          "label": "Множитель нетто пассажирских ставок",
+          "value": 1,
+          "unit": "доля",
+          "low": 0.75,
+          "high": 1.15,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "cargoSold",
+          "scope": "all",
+          "parameter": "cargoSold",
+          "label": "Проданная доля плана груза",
+          "value": 100,
+          "unit": "%",
+          "low": 0,
+          "high": 100,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "cargoRateUsd",
+          "scope": "all",
+          "parameter": "cargoRateUsd",
+          "label": "Доход груза нетто",
+          "value": 2.5,
+          "unit": "USD/kg",
+          "low": 1.5,
+          "high": 3.5,
+          "status": "model-assumption",
+          "reference": "R7-context-only",
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "balancingFareFactor",
+          "scope": "all",
+          "parameter": "balancingFareFactor",
+          "label": "Ставка встречного блока относительно основной",
+          "value": 0.85,
+          "unit": "доля",
+          "low": 0.7,
+          "high": 1,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "fuelRussiaRub",
+          "scope": "all",
+          "parameter": "fuelRussiaRub",
+          "label": "Топливо РФ в крыло",
+          "value": 125000,
+          "unit": "RUB/t",
+          "low": 110000,
+          "high": 155000,
+          "status": "model-assumption",
+          "reference": "COST-02",
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "fuelForeignUsd",
+          "scope": "all",
+          "parameter": "fuelForeignUsd",
+          "label": "Топливо зарубежье в крыло",
+          "value": 1650,
+          "unit": "USD/t",
+          "low": 1300,
+          "high": 2000,
+          "status": "model-assumption",
+          "reference": "COST-01-context-only",
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "otherVariablePct",
+          "scope": "all",
+          "parameter": "otherVariablePct",
+          "label": "Прочие переменные: поездки/сбои/прочее",
+          "value": 5,
+          "unit": "%",
+          "low": 3,
+          "high": 10,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "overheadMonthlyRub",
+          "scope": "all",
+          "parameter": "overheadMonthlyRub",
+          "label": "Общехозяйственные расходы всего парка",
+          "value": 80000000,
+          "unit": "RUB/month",
+          "low": 40000000,
+          "high": 130000000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Границы чувствительности, не диапазон котировок; значение не утверждено договором."
+        },
+        {
+          "id": "737-fuelTph",
+          "scope": "737",
+          "parameter": "fuelTph",
+          "label": "Расход топлива",
+          "value": 2.5,
+          "unit": "t/block-hour",
+          "low": 2.2,
+          "high": 2.9,
+          "status": "model-assumption",
+          "reference": "COST-04-context-only",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-maintenanceUsdBh",
+          "scope": "737",
+          "parameter": "maintenanceUsdBh",
+          "label": "ТО и резервы по часам",
+          "value": 650,
+          "unit": "USD/block-hour",
+          "low": 450,
+          "high": 1000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-maintenanceUsdCycle",
+          "scope": "737",
+          "parameter": "maintenanceUsdCycle",
+          "label": "ТО и резервы по циклам",
+          "value": 180,
+          "unit": "USD/leg",
+          "low": 100,
+          "high": 300,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-airportUsdLeg",
+          "scope": "737",
+          "parameter": "airportUsdLeg",
+          "label": "Аэропорт и handling обоих концов",
+          "value": 4250,
+          "unit": "USD/leg",
+          "low": 2500,
+          "high": 6500,
+          "status": "model-assumption",
+          "reference": "COST-06-context-only",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-navigationUsdBh",
+          "scope": "737",
+          "parameter": "navigationUsdBh",
+          "label": "Навигация",
+          "value": 180,
+          "unit": "USD/block-hour",
+          "low": 100,
+          "high": 300,
+          "status": "model-assumption",
+          "reference": "COST-07-context-only",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-passengerRub",
+          "scope": "737",
+          "parameter": "passengerRub",
+          "label": "Питание и пассажирское обслуживание, вне транзитных налогов",
+          "value": 1200,
+          "unit": "RUB/pax",
+          "low": 700,
+          "high": 2000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-cargoHandlingUsdKg",
+          "scope": "737",
+          "parameter": "cargoHandlingUsdKg",
+          "label": "Обработка груза",
+          "value": 0,
+          "unit": "USD/kg",
+          "low": 0,
+          "high": 0,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-leaseUsdMonth",
+          "scope": "737",
+          "parameter": "leaseUsdMonth",
+          "label": "Аренда",
+          "value": 410000,
+          "unit": "USD/aircraft/month",
+          "low": 330000,
+          "high": 500000,
+          "status": "model-assumption",
+          "reference": "COST-05",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-insuranceUsdMonth",
+          "scope": "737",
+          "parameter": "insuranceUsdMonth",
+          "label": "Страхование",
+          "value": 20000,
+          "unit": "USD/aircraft/month",
+          "low": 10000,
+          "high": 40000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "737-crewRubMonth",
+          "scope": "737",
+          "parameter": "crewRubMonth",
+          "label": "Постоянный ФОТ и подготовка персонала",
+          "value": 16200000,
+          "unit": "RUB/aircraft/month",
+          "low": 9000000,
+          "high": 25200000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-fuelTph",
+          "scope": "777",
+          "parameter": "fuelTph",
+          "label": "Расход топлива",
+          "value": 8,
+          "unit": "t/block-hour",
+          "low": 7.2,
+          "high": 9,
+          "status": "model-assumption",
+          "reference": "COST-04-context-only",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-maintenanceUsdBh",
+          "scope": "777",
+          "parameter": "maintenanceUsdBh",
+          "label": "ТО и резервы по часам",
+          "value": 2200,
+          "unit": "USD/block-hour",
+          "low": 1500,
+          "high": 3200,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-maintenanceUsdCycle",
+          "scope": "777",
+          "parameter": "maintenanceUsdCycle",
+          "label": "ТО и резервы по циклам",
+          "value": 350,
+          "unit": "USD/leg",
+          "low": 200,
+          "high": 600,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-airportUsdLeg",
+          "scope": "777",
+          "parameter": "airportUsdLeg",
+          "label": "Аэропорт и handling обоих концов",
+          "value": 9500,
+          "unit": "USD/leg",
+          "low": 6000,
+          "high": 15000,
+          "status": "model-assumption",
+          "reference": "COST-06-context-only",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-navigationUsdBh",
+          "scope": "777",
+          "parameter": "navigationUsdBh",
+          "label": "Навигация",
+          "value": 450,
+          "unit": "USD/block-hour",
+          "low": 300,
+          "high": 700,
+          "status": "model-assumption",
+          "reference": "COST-07-context-only",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-passengerRub",
+          "scope": "777",
+          "parameter": "passengerRub",
+          "label": "Питание и пассажирское обслуживание, вне транзитных налогов",
+          "value": 1800,
+          "unit": "RUB/pax",
+          "low": 1000,
+          "high": 3000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-cargoHandlingUsdKg",
+          "scope": "777",
+          "parameter": "cargoHandlingUsdKg",
+          "label": "Обработка груза",
+          "value": 0.18,
+          "unit": "USD/kg",
+          "low": 0.1,
+          "high": 0.35,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-leaseUsdMonth",
+          "scope": "777",
+          "parameter": "leaseUsdMonth",
+          "label": "Аренда",
+          "value": 550000,
+          "unit": "USD/aircraft/month",
+          "low": 400000,
+          "high": 700000,
+          "status": "model-assumption",
+          "reference": "COST-05",
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-insuranceUsdMonth",
+          "scope": "777",
+          "parameter": "insuranceUsdMonth",
+          "label": "Страхование",
+          "value": 40000,
+          "unit": "USD/aircraft/month",
+          "low": 20000,
+          "high": 80000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "777-crewRubMonth",
+          "scope": "777",
+          "parameter": "crewRubMonth",
+          "label": "Постоянный ФОТ и подготовка персонала",
+          "value": 36000000,
+          "unit": "RUB/aircraft/month",
+          "low": 22500000,
+          "high": 54000000,
+          "status": "model-assumption",
+          "reference": null,
+          "note": "Модельная ставка для чувствительности; не норма конкретного борта, не оферта."
+        },
+        {
+          "id": "net-fare-rule",
+          "scope": "route",
+          "label": "Стартовая пассажирская ставка",
+          "value": null,
+          "unit": "RUB/pax/leg",
+          "formula": "round((5000+2800*mean baseline block hours)/100)*100",
+          "status": "model-assumption",
+          "note": "Нетто экономический эквивалент; сезонный коэффициент1. Тарифы каждого плеча редактируются. Формула не откалибрована по средней рыночной доходности."
+        },
+        {
+          "id": "cargo-target",
+          "scope": "777",
+          "label": "План груза в РФ",
+          "value": 20,
+          "unit": "t/inbound-leg",
+          "status": "user-target",
+          "note": "На исходном сценарии; редактируется в программе. Payload/спрос не подтверждены. Из РФ0;7370."
+        },
+        {
+          "id": "preset-rule",
+          "scope": "all",
+          "label": "Неблагоприятные / благоприятные условия",
+          "status": "model-assumption",
+          "note": "Ставки×0.8/1.15;LF−10/+2п.п.;реализациягруза×.5/1;топливо×1.2/.9;прочиепеременные×1.1/.95. Постоянный пул неизменен. Не статистический прогноз."
+        },
+        {
+          "id": "fixed-allocation",
+          "scope": "all",
+          "label": "Постоянные расходы",
+          "status": "model-method",
+          "note": "Все10+5ВС включаярезерв;12×days/365.217/147дней. Доли по исходномуBHсезон×тип,приотменерейсадолясохраняется. Не является основанием считать отмену экономией аренды."
+        },
+        {
+          "id": "passenger-method",
+          "scope": "all",
+          "label": "Ожидаемые пассажиры экономики",
+          "status": "model-method",
+          "note": "Кресла×LF,безceilоперационнойцели. Доход учитывает долюownPax/targetPax и скидкувстречногоблока. Нетпродажилидоговора."
+        },
+        {
+          "id": "exclusions",
+          "scope": "all",
+          "label": "Граница результата",
+          "status": "model-method",
+          "note": "До налогана прибыль/финансирования; нетCAPEX,депозитов,оборотного капитала. Ставки netбезкомиссийитранзитныхналогов,топливобезвозмещаемогоНДС."
+        }
+      ]
     }
   },
   "methodology": [
@@ -836283,5 +836907,5 @@
     "usedTimePairs": 142,
     "usedScheduledTimePairs": 11
   },
-  "interfaceVersion": "0.7-frequency-editor"
+  "interfaceVersion": "0.8-route-economics"
 }
