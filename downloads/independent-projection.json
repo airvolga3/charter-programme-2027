@@ -1,0 +1,727 @@
+{
+  "asOf": "2026-11-02",
+  "method": "Independent direct per-leg formula; LF97%;737230;777550; fullfleet15fixed; frozen oldfares/cost proxies; cargo0; no payload/demand/slots/crew validation",
+  "cases": {
+    "baselineOld": {
+      "seats737": 202,
+      "lf": 0.95,
+      "totals": {
+        "pax": 3993366.8000000548,
+        "revenue": 108769375306.5,
+        "variableCost": 98599380596.5,
+        "fixedCost": 14905052054.794521,
+        "blockHours": 76229.03333333292,
+        "result": -4735057344.794521
+      },
+      "byType": {
+        "737": {
+          "pax": 762226.800000055,
+          "revenue": 16368304318.999998,
+          "variableCost": 12945529665.25,
+          "fixedCost": 3604098630.1369863,
+          "blockHours": 23596.183333333363,
+          "result": -181323976.38698816
+        },
+        "777": {
+          "pax": 3231140,
+          "revenue": 92401070987.5,
+          "variableCost": 85653850931.25,
+          "fixedCost": 11300953424.657536,
+          "blockHours": 52632.84999999956,
+          "result": -4553733368.407536
+        }
+      },
+      "matching": {
+        "objective": "max paired groups, then max exact 10-local-night groups",
+        "physicalLegs": 10156,
+        "matchedGroups": 4806,
+        "tenNightGroups": 2082,
+        "otherNightGroups": 2724,
+        "tenNightGroupShare": 0.4332084893882647,
+        "matchedTourists": 1890265,
+        "tenNightTourists": 781056,
+        "outboundPax": 1998428,
+        "inboundPax": 1998428,
+        "passengerSegments": 3996856,
+        "ownOutboundPax": 1890265,
+        "ownReturnPax": 1890265,
+        "balancingPax": 216326,
+        "balancingOutboundPax": 108163,
+        "balancingInboundPax": 108163,
+        "status": "planned-groups-not-confirmed-demand"
+      }
+    },
+    "baselineNew": {
+      "seats737": 230,
+      "lf": 0.97,
+      "totals": {
+        "pax": 4185317.1999999397,
+        "revenue": 113375896523.5,
+        "variableCost": 98884093220.5,
+        "fixedCost": 14905052054.794521,
+        "blockHours": 76229.03333333292,
+        "result": -413248751.79452133
+      },
+      "byType": {
+        "737": {
+          "pax": 886153.1999999398,
+          "revenue": 19029539831,
+          "variableCost": 13101676929.25,
+          "fixedCost": 3604098630.1369863,
+          "blockHours": 23596.183333333363,
+          "result": 2323764271.6130137
+        },
+        "777": {
+          "pax": 3299164,
+          "revenue": 94346356692.5,
+          "variableCost": 85782416291.25,
+          "fixedCost": 11300953424.657536,
+          "blockHours": 52632.84999999956,
+          "result": -2737013023.4075356
+        }
+      },
+      "matching": {
+        "objective": "max paired groups, then max exact 10-local-night groups",
+        "physicalLegs": 10156,
+        "matchedGroups": 4806,
+        "tenNightGroups": 2082,
+        "otherNightGroups": 2724,
+        "tenNightGroupShare": 0.4332084893882647,
+        "matchedTourists": 1982674,
+        "tenNightTourists": 823488,
+        "outboundPax": 2095992,
+        "inboundPax": 2095992,
+        "passengerSegments": 4191984,
+        "ownOutboundPax": 1982674,
+        "ownReturnPax": 1982674,
+        "balancingPax": 226636,
+        "balancingOutboundPax": 113318,
+        "balancingInboundPax": 113318,
+        "status": "planned-groups-not-confirmed-demand"
+      }
+    },
+    "selectedOld": {
+      "seats737": 202,
+      "lf": 0.95,
+      "totals": {
+        "pax": 4043526.8000000548,
+        "revenue": 110045738306.5,
+        "variableCost": 99761522784,
+        "fixedCost": 14905052054.794521,
+        "blockHours": 76928.53333333289,
+        "result": -4620836532.294521
+      },
+      "byType": {
+        "737": {
+          "pax": 762226.800000055,
+          "revenue": 16368304318.999998,
+          "variableCost": 12945529665.25,
+          "fixedCost": 3604098630.1369863,
+          "blockHours": 23596.183333333363,
+          "result": -181323976.38698816
+        },
+        "777": {
+          "pax": 3281300,
+          "revenue": 93677433987.5,
+          "variableCost": 86815993118.75,
+          "fixedCost": 11300953424.657536,
+          "blockHours": 53332.34999999952,
+          "result": -4439512555.907536
+        }
+      },
+      "matching": {
+        "objective": "max paired groups, then max exact 10-local-night groups",
+        "physicalLegs": 10252,
+        "matchedGroups": 4854,
+        "tenNightGroups": 2594,
+        "otherNightGroups": 2260,
+        "tenNightGroupShare": 0.5344046147507211,
+        "matchedTourists": 1915369,
+        "tenNightTourists": 988921,
+        "outboundPax": 2023532,
+        "inboundPax": 2023532,
+        "passengerSegments": 4047064,
+        "ownOutboundPax": 1915369,
+        "ownReturnPax": 1915369,
+        "balancingPax": 216326,
+        "balancingOutboundPax": 108163,
+        "balancingInboundPax": 108163,
+        "status": "planned-groups-not-confirmed-demand"
+      }
+    },
+    "selectedNew": {
+      "seats737": 230,
+      "lf": 0.97,
+      "totals": {
+        "pax": 4236533.19999994,
+        "revenue": 114679130323.5,
+        "variableCost": 100048231248,
+        "fixedCost": 14905052054.794521,
+        "blockHours": 76928.53333333289,
+        "result": -274152979.29452133
+      },
+      "byType": {
+        "737": {
+          "pax": 886153.1999999398,
+          "revenue": 19029539831,
+          "variableCost": 13101676929.25,
+          "fixedCost": 3604098630.1369863,
+          "blockHours": 23596.183333333363,
+          "result": 2323764271.6130137
+        },
+        "777": {
+          "pax": 3350380,
+          "revenue": 95649590492.5,
+          "variableCost": 86946554318.75,
+          "fixedCost": 11300953424.657536,
+          "blockHours": 53332.34999999952,
+          "result": -2597917250.9075356
+        }
+      },
+      "matching": {
+        "objective": "max paired groups, then max exact 10-local-night groups",
+        "physicalLegs": 10252,
+        "matchedGroups": 4854,
+        "tenNightGroups": 2594,
+        "otherNightGroups": 2260,
+        "tenNightGroupShare": 0.5344046147507211,
+        "matchedTourists": 2008306,
+        "tenNightTourists": 1040786,
+        "outboundPax": 2121624,
+        "inboundPax": 2121624,
+        "passengerSegments": 4243248,
+        "ownOutboundPax": 2008306,
+        "ownReturnPax": 2008306,
+        "balancingPax": 226636,
+        "balancingOutboundPax": 113318,
+        "balancingInboundPax": 113318,
+        "status": "planned-groups-not-confirmed-demand"
+      }
+    }
+  },
+  "ranges": [
+    {
+      "base": "KHV",
+      "dest": "PQC",
+      "legs": 30,
+      "greatCircleKm": 5157.050517980878,
+      "minBlockHours": 6.333333333333333,
+      "maxBlockHours": 7.666666666666667
+    },
+    {
+      "base": "BAX",
+      "dest": "PQC",
+      "legs": 26,
+      "greatCircleKm": 5138.138041054363,
+      "minBlockHours": 6.333333333333333,
+      "maxBlockHours": 7.666666666666667
+    },
+    {
+      "base": "BAX",
+      "dest": "CXR",
+      "legs": 46,
+      "greatCircleKm": 5130.662518589808,
+      "minBlockHours": 7.25,
+      "maxBlockHours": 7.916666666666667
+    },
+    {
+      "base": "VVO",
+      "dest": "HKT",
+      "legs": 186,
+      "greatCircleKm": 5116.250993811454,
+      "minBlockHours": 7.333333333333333,
+      "maxBlockHours": 7.666666666666667
+    },
+    {
+      "base": "VVO",
+      "dest": "KBV",
+      "legs": 30,
+      "greatCircleKm": 5076.552516254331,
+      "minBlockHours": 7.25,
+      "maxBlockHours": 7.5
+    },
+    {
+      "base": "HTA",
+      "dest": "HKT",
+      "legs": 72,
+      "greatCircleKm": 5070.286177006421,
+      "minBlockHours": 7.25,
+      "maxBlockHours": 7.583333333333333
+    },
+    {
+      "base": "NOZ",
+      "dest": "CXR",
+      "legs": 8,
+      "greatCircleKm": 5049.909589656918,
+      "minBlockHours": 7.083333333333333,
+      "maxBlockHours": 7.75
+    },
+    {
+      "base": "BQS",
+      "dest": "PQC",
+      "legs": 30,
+      "greatCircleKm": 4964.189748786388,
+      "minBlockHours": 6.083333333333333,
+      "maxBlockHours": 7.416666666666667
+    },
+    {
+      "base": "KZN",
+      "dest": "GOI",
+      "legs": 28,
+      "greatCircleKm": 4939.114016714123,
+      "minBlockHours": 7,
+      "maxBlockHours": 7.333333333333333
+    },
+    {
+      "base": "NOZ",
+      "dest": "UTP",
+      "legs": 32,
+      "greatCircleKm": 4739.900606557673,
+      "minBlockHours": 6.75,
+      "maxBlockHours": 7.083333333333333
+    },
+    {
+      "base": "KHV",
+      "dest": "CXR",
+      "legs": 44,
+      "greatCircleKm": 4717.689673952084,
+      "minBlockHours": 6.666666666666667,
+      "maxBlockHours": 7.333333333333333
+    },
+    {
+      "base": "NOZ",
+      "dest": "DAD",
+      "legs": 32,
+      "greatCircleKm": 4588.504333658168,
+      "minBlockHours": 6.583333333333333,
+      "maxBlockHours": 6.833333333333333
+    },
+    {
+      "base": "VVO",
+      "dest": "PQC",
+      "legs": 88,
+      "greatCircleKm": 4586.339624987814,
+      "minBlockHours": 5.666666666666667,
+      "maxBlockHours": 7
+    },
+    {
+      "base": "BQS",
+      "dest": "CXR",
+      "legs": 44,
+      "greatCircleKm": 4583.103812880512,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 7.166666666666667
+    },
+    {
+      "base": "LED",
+      "dest": "MCT",
+      "legs": 28,
+      "greatCircleKm": 4576.354568782766,
+      "minBlockHours": 6.583333333333333,
+      "maxBlockHours": 6.833333333333333
+    },
+    {
+      "base": "VVO",
+      "dest": "UTP",
+      "legs": 32,
+      "greatCircleKm": 4531.45214740901,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 6.75
+    },
+    {
+      "base": "OMS",
+      "dest": "SLL",
+      "legs": 26,
+      "greatCircleKm": 4524.761998058537,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 6.75
+    },
+    {
+      "base": "MOW",
+      "dest": "SLL",
+      "legs": 26,
+      "greatCircleKm": 4524.753585865056,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 6.75
+    },
+    {
+      "base": "LED",
+      "dest": "DWC",
+      "legs": 32,
+      "greatCircleKm": 4331.010548151784,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 6.5
+    },
+    {
+      "base": "KZN",
+      "dest": "SLL",
+      "legs": 26,
+      "greatCircleKm": 4307.931667300333,
+      "minBlockHours": 6.25,
+      "maxBlockHours": 6.5
+    },
+    {
+      "base": "SGC",
+      "dest": "DWC",
+      "legs": 58,
+      "greatCircleKm": 4281.421696113986,
+      "minBlockHours": 7.083333333333333,
+      "maxBlockHours": 7.333333333333333
+    },
+    {
+      "base": "VVO",
+      "dest": "CXR",
+      "legs": 142,
+      "greatCircleKm": 4127.163005885594,
+      "minBlockHours": 5.916666666666667,
+      "maxBlockHours": 6.583333333333333
+    },
+    {
+      "base": "TJM",
+      "dest": "SSH",
+      "legs": 28,
+      "greatCircleKm": 4048.229219959603,
+      "minBlockHours": 5.916666666666667,
+      "maxBlockHours": 6.083333333333333
+    },
+    {
+      "base": "SGC",
+      "dest": "AYT",
+      "legs": 86,
+      "greatCircleKm": 4001.6695604404263,
+      "minBlockHours": 6.333333333333333,
+      "maxBlockHours": 7.083333333333333
+    },
+    {
+      "base": "MOW",
+      "dest": "MCT",
+      "legs": 2,
+      "greatCircleKm": 3954.4231911720217,
+      "minBlockHours": 5.75,
+      "maxBlockHours": 6
+    },
+    {
+      "base": "CEK",
+      "dest": "HRG",
+      "legs": 30,
+      "greatCircleKm": 3839.4376888298452,
+      "minBlockHours": 7.166666666666667,
+      "maxBlockHours": 7.5
+    },
+    {
+      "base": "PEE",
+      "dest": "HRG",
+      "legs": 32,
+      "greatCircleKm": 3833.028730740234,
+      "minBlockHours": 7.083333333333333,
+      "maxBlockHours": 7.416666666666667
+    },
+    {
+      "base": "VVO",
+      "dest": "DAD",
+      "legs": 32,
+      "greatCircleKm": 3791.560023382574,
+      "minBlockHours": 5.583333333333333,
+      "maxBlockHours": 5.75
+    },
+    {
+      "base": "OMS",
+      "dest": "AYT",
+      "legs": 46,
+      "greatCircleKm": 3769.357724866174,
+      "minBlockHours": 6,
+      "maxBlockHours": 6.75
+    },
+    {
+      "base": "MOW",
+      "dest": "DWC",
+      "legs": 134,
+      "greatCircleKm": 3715.1917737838644,
+      "minBlockHours": 6.333333333333333,
+      "maxBlockHours": 6.583333333333333
+    },
+    {
+      "base": "LED",
+      "dest": "HRG",
+      "legs": 140,
+      "greatCircleKm": 3637.6151104543114,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 6.5
+    },
+    {
+      "base": "LED",
+      "dest": "SSH",
+      "legs": 130,
+      "greatCircleKm": 3552.4876828207807,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 6.5
+    },
+    {
+      "base": "UFA",
+      "dest": "HRG",
+      "legs": 60,
+      "greatCircleKm": 3532.9570892510455,
+      "minBlockHours": 6.75,
+      "maxBlockHours": 7.083333333333333
+    },
+    {
+      "base": "KZN",
+      "dest": "DWC",
+      "legs": 44,
+      "greatCircleKm": 3448.3240569205204,
+      "minBlockHours": 5.5,
+      "maxBlockHours": 5.5
+    },
+    {
+      "base": "KZN",
+      "dest": "HRG",
+      "legs": 174,
+      "greatCircleKm": 3397.203905531611,
+      "minBlockHours": 6,
+      "maxBlockHours": 6
+    },
+    {
+      "base": "TJM",
+      "dest": "AYT",
+      "legs": 44,
+      "greatCircleKm": 3391.067441993874,
+      "minBlockHours": 5.5,
+      "maxBlockHours": 6.25
+    },
+    {
+      "base": "GOJ",
+      "dest": "HRG",
+      "legs": 30,
+      "greatCircleKm": 3327.2967942812384,
+      "minBlockHours": 6.5,
+      "maxBlockHours": 6.833333333333333
+    },
+    {
+      "base": "KZN",
+      "dest": "SSH",
+      "legs": 134,
+      "greatCircleKm": 3294.7638894829565,
+      "minBlockHours": 6,
+      "maxBlockHours": 6
+    },
+    {
+      "base": "KGD",
+      "dest": "HRG",
+      "legs": 30,
+      "greatCircleKm": 3262.046108136095,
+      "minBlockHours": 6.416666666666667,
+      "maxBlockHours": 6.75
+    },
+    {
+      "base": "GOJ",
+      "dest": "SSH",
+      "legs": 28,
+      "greatCircleKm": 3228.7034710470957,
+      "minBlockHours": 4.833333333333333,
+      "maxBlockHours": 5
+    },
+    {
+      "base": "CEK",
+      "dest": "DLM",
+      "legs": 42,
+      "greatCircleKm": 3213.744984515419,
+      "minBlockHours": 4.833333333333333,
+      "maxBlockHours": 5
+    },
+    {
+      "base": "MOW",
+      "dest": "HRG",
+      "legs": 180,
+      "greatCircleKm": 3192.008876261806,
+      "minBlockHours": 6.25,
+      "maxBlockHours": 6.583333333333333
+    },
+    {
+      "base": "KUF",
+      "dest": "SSH",
+      "legs": 60,
+      "greatCircleKm": 3118.056130985757,
+      "minBlockHours": 4.666666666666667,
+      "maxBlockHours": 4.833333333333333
+    },
+    {
+      "base": "MOW",
+      "dest": "SSH",
+      "legs": 66,
+      "greatCircleKm": 3098.9334985447153,
+      "minBlockHours": 6.4,
+      "maxBlockHours": 6.4
+    },
+    {
+      "base": "PEE",
+      "dest": "AYT",
+      "legs": 40,
+      "greatCircleKm": 2974.336501118258,
+      "minBlockHours": 5,
+      "maxBlockHours": 5.75
+    },
+    {
+      "base": "UFA",
+      "dest": "BJV",
+      "legs": 40,
+      "greatCircleKm": 2875.1125073310454,
+      "minBlockHours": 4.333333333333333,
+      "maxBlockHours": 4.5
+    },
+    {
+      "base": "UFA",
+      "dest": "AYT",
+      "legs": 46,
+      "greatCircleKm": 2736.2764729787646,
+      "minBlockHours": 4.666666666666667,
+      "maxBlockHours": 5.416666666666667
+    },
+    {
+      "base": "KRR",
+      "dest": "DWC",
+      "legs": 32,
+      "greatCircleKm": 2660.4617431386964,
+      "minBlockHours": 5,
+      "maxBlockHours": 5.25
+    },
+    {
+      "base": "KZN",
+      "dest": "DLM",
+      "legs": 42,
+      "greatCircleKm": 2606.2683375344654,
+      "minBlockHours": 4,
+      "maxBlockHours": 4.166666666666667
+    },
+    {
+      "base": "KZN",
+      "dest": "BJV",
+      "legs": 2,
+      "greatCircleKm": 2606.123908623568,
+      "minBlockHours": 4,
+      "maxBlockHours": 4.166666666666667
+    },
+    {
+      "base": "LED",
+      "dest": "DLM",
+      "legs": 86,
+      "greatCircleKm": 2569.3348819399444,
+      "minBlockHours": 5.5,
+      "maxBlockHours": 5.5
+    },
+    {
+      "base": "LED",
+      "dest": "AYT",
+      "legs": 168,
+      "greatCircleKm": 2546.8320414145637,
+      "minBlockHours": 5.4,
+      "maxBlockHours": 5.4
+    },
+    {
+      "base": "LED",
+      "dest": "BJV",
+      "legs": 82,
+      "greatCircleKm": 2514.386089160315,
+      "minBlockHours": 5.5,
+      "maxBlockHours": 5.5
+    },
+    {
+      "base": "KZN",
+      "dest": "AYT",
+      "legs": 222,
+      "greatCircleKm": 2501.8953670000856,
+      "minBlockHours": 4.333333333333333,
+      "maxBlockHours": 5.083333333333333
+    },
+    {
+      "base": "KUF",
+      "dest": "DLM",
+      "legs": 46,
+      "greatCircleKm": 2490.276266913933,
+      "minBlockHours": 3.8333333333333335,
+      "maxBlockHours": 4
+    },
+    {
+      "base": "VOG",
+      "dest": "SSH",
+      "legs": 30,
+      "greatCircleKm": 2465.376580171528,
+      "minBlockHours": 3.8333333333333335,
+      "maxBlockHours": 4
+    },
+    {
+      "base": "GOJ",
+      "dest": "DLM",
+      "legs": 46,
+      "greatCircleKm": 2442.801461978856,
+      "minBlockHours": 3.8333333333333335,
+      "maxBlockHours": 3.9166666666666665
+    },
+    {
+      "base": "KUF",
+      "dest": "AYT",
+      "legs": 40,
+      "greatCircleKm": 2373.7867672173875,
+      "minBlockHours": 4.25,
+      "maxBlockHours": 5
+    },
+    {
+      "base": "GOJ",
+      "dest": "AYT",
+      "legs": 44,
+      "greatCircleKm": 2358.306257887115,
+      "minBlockHours": 4.166666666666667,
+      "maxBlockHours": 4.916666666666667
+    },
+    {
+      "base": "MOW",
+      "dest": "DLM",
+      "legs": 88,
+      "greatCircleKm": 2218.827292651325,
+      "minBlockHours": 5.25,
+      "maxBlockHours": 5.25
+    },
+    {
+      "base": "MOW",
+      "dest": "BJV",
+      "legs": 42,
+      "greatCircleKm": 2188.5955615344014,
+      "minBlockHours": 5.25,
+      "maxBlockHours": 5.25
+    },
+    {
+      "base": "MOW",
+      "dest": "AYT",
+      "legs": 130,
+      "greatCircleKm": 2158.0736370213976,
+      "minBlockHours": 4.833333333333333,
+      "maxBlockHours": 5.166666666666667
+    },
+    {
+      "base": "KGD",
+      "dest": "AYT",
+      "legs": 44,
+      "greatCircleKm": 2145.6344604237743,
+      "minBlockHours": 4.833333333333333,
+      "maxBlockHours": 5.166666666666667
+    },
+    {
+      "base": "VOG",
+      "dest": "BJV",
+      "legs": 42,
+      "greatCircleKm": 1858.4402346793302,
+      "minBlockHours": 3.0833333333333335,
+      "maxBlockHours": 3.1666666666666665
+    },
+    {
+      "base": "KRR",
+      "dest": "AYT",
+      "legs": 42,
+      "greatCircleKm": 1144.3899936446217,
+      "minBlockHours": 3.5833333333333335,
+      "maxBlockHours": 3.9166666666666665
+    }
+  ],
+  "rangeReferenceKm": 5740,
+  "rangeSource": "https://www.boeing.com/Commercial/737MAX",
+  "rangeCaution": "Great-circle screen only. Advertised range is not 230-seat payload permission; actual tracks/wind/fuel reserves/performance unknown."
+}
